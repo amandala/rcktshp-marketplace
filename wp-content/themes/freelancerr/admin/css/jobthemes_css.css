@@ -1,0 +1,891 @@
+a:focus, a:active,
+button,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+select::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+    outline: none !important;
+}
+#helper {margin-top: 20px; line-height: 30px;width: 960px; overflow:hidden }
+#helper ul {list-style: none;margin-left: 15px; }
+#helper li a {border: 1px solid #222;
+    float: left;
+    line-height: 25px;
+    margin: 0 2px;
+    padding: 2px 18px;  
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	margin-bottom: -2px;
+	border-bottom: 0px; 
+	background: url("../images/main_bg.png") repeat-y scroll 0 0 transparent;
+	color: #fff;
+	}
+
+	#jobthemes-content .infos{
+padding: 8px;
+border: 1px solid #8cdaf7;
+background: #ebfaff;
+margin-bottom: 5px;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+}
+#helper li a:hover {border: 1px solid #e03804;background: #fb3d03; border-bottom: 	0px; color: #fff; }	
+	
+	#helper li a { color: #fff; text-decoration: none; }
+	#helper li a:hover {color: #fff;}
+	
+#jobthemes-settings{
+    margin: 00px 20px 20px 0;
+    width: 960px;
+    background: url('../images/main_bg.png') repeat-y;
+    overflow: hidden;
+    border: 1px solid #c6c6c6;
+    position: relative;
+     border-radius: px;
+     -webkit-border-radius: 5px;
+-moz-border-radius: 5px; 
+border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-top: 0px; 
+}
+
+#jobthemes-sidebar{
+    width: 250px;
+    float:left;
+}
+
+.jobthemes-hide{
+    display:none;
+}
+
+
+
+
+#jobthemes-content{
+    line-height: 18px;
+    font-family: 'Arial', sans-serif;
+    color: #2b2b2b;
+    height: 100%;
+    font-weight: normal;
+    font-size: 12px;
+    padding: 10px;
+    width: 689px;
+    float:right;
+}
+
+#jobthemes-content h4{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	color: #fa3e04;
+}
+
+#jobthemes-meta-info{
+    padding: 70px 20px 10px 20px;
+    overflow: hidden;
+    background: url("jobthemes-logo-admin.jpg") no-repeat scroll 14px 5px; 
+}
+
+/* Forms */
+
+#jobthemes-settings input, 
+.jobthemes-image-checkbox,
+.jobthemes-image-radio,
+.jobthemes-button-blue, 
+.jobthemes-button,
+#jobthemes-settings textarea{
+    background: #ffffff;
+    border: 1px solid #c1c1c1;
+    border-bottom: 2px solid #c1c1c1;
+
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 8px 10px;
+    font-size: 12px;
+
+    color: #898989;
+    display: block;
+}
+
+#jobthemes-settings select{
+    background: #ffffff;
+    border: 1px solid #c1c1c1;
+    border-bottom: 2px solid #c1c1c1;
+
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    height: 34px;
+    padding: 7px 5px 7px 5px;
+    font-size: 12px;
+    min-width: 150px;
+
+    color: #898989;
+    display: block;
+}
+
+#jobthemes-settings input.jobthemes-color-picker{
+    width: 70px;
+    color: #f0f0f0;
+}
+
+#jobthemes-settings textarea{
+    font-family: 'Arial', sans-serif;
+	width: 380px;
+}
+
+#jobthemes-settings input:focus, #jobthemes-settings textarea:focus{
+    outline: none!important;
+    border: 1px solid #d3d3d3;
+    border-bottom: 2px solid #d3d3d3;
+}
+
+#jobthemes-settings input[type="button"],
+#jobthemes-settings input[type="submit"],
+.jobthemes-button-blue, 
+.jobthemes-button,
+#jobthemes-settings input[type="reset"]{
+    display: inline;
+    padding: 7px 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+
+    font-size: 11px;
+}
+
+.jobthemes-button,
+#jobthemes-settings input[type="button"]{
+    color: #a9a9a9;
+    text-shadow: 0 1px 0 white;
+    background: rgb(245,245,245);
+
+
+    background-image: linear-gradient(bottom, rgb(245,245,245) 100%, rgb(237,237,237) 0%);
+    background-image: -o-linear-gradient(bottom, rgb(245,245,245) 100%, rgb(237,237,237) 0%);
+    background-image: -moz-linear-gradient(bottom, rgb(245,245,245) 100%, rgb(237,237,237) 0%);
+    background-image: -webkit-linear-gradient(bottom, rgb(245,245,245) 100%, rgb(237,237,237) 0%);
+    background-image: -ms-linear-gradient(bottom, rgb(245,245,245) 100%, rgb(237,237,237) 0%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(1, rgb(245,245,245)),
+        color-stop(0, rgb(237,237,237))
+        );
+
+    border: 1px solid #c0c0c0;
+
+    box-shadow: 0 1px 0 white inset;
+}
+
+.jobthemes-button:active,
+#jobthemes-settings input[type="button"]:active{
+    background-image: linear-gradient(bottom, rgb(245,245,245) 0%, rgb(237,237,237) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(245,245,245) 0%, rgb(237,237,237) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(245,245,245) 0%, rgb(237,237,237) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(245,245,245) 0%, rgb(237,237,237) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(245,245,245) 0%, rgb(237,237,237) 100%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(245,245,245)),
+        color-stop(1, rgb(237,237,237))
+        );
+
+    box-shadow: none;
+}
+.jobthemes-button:hover,
+#jobthemes-settings input[type="button"]:hover{
+    background-image: linear-gradient(bottom, rgb(242,242,242) 100%, rgb(235,235,235) 0%);
+    background-image: -o-linear-gradient(bottom, rgb(242,242,242) 100%, rgb(235,235,235) 0%);
+    background-image: -moz-linear-gradient(bottom, rgb(242,242,242) 100%, rgb(235,235,235) 0%);
+    background-image: -webkit-linear-gradient(bottom, rgb(242,242,242) 100%, rgb(235,235,235) 0%);
+    background-image: -ms-linear-gradient(bottom, rgb(242,242,242) 100%, rgb(235,235,235) 0%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(1, rgb(242,242,242)),
+        color-stop(0, rgb(235,235,235))
+        );
+}
+
+#jobthemes-settings input[type="submit"],
+.jobthemes-button-blue, 
+#jobthemes-settings input[type="reset"]{
+    color: white;
+    text-shadow: 0 1px 0 #24538b;
+    background: url('../images/buttonblue_bg.png');
+
+    border: 1px solid #477dae;
+
+    box-shadow: 0 1px 0 #93c1eb inset;
+}
+
+#jobthemes-settings input[type="submit"]:hover,
+.jobthemes-button-blue:hover, 
+#jobthemes-settings input[type="reset"]:hover{
+    background: #558BBC;
+    box-shadow: 0 1px 0 #558BBC inset;
+}
+
+#jobthemes-settings input[type="submit"]:active,
+.jobthemes-button-blue:active, 
+#jobthemes-settings input[type="reset"]:active{
+    background-image: linear-gradient(bottom, #679CCE 0%, #497EB0 100%);
+    background-image: -o-linear-gradient(bottom, #679CCE 0%, #497EB0 100%);
+    background-image: -moz-linear-gradient(bottom, #679CCE 0%, #497EB0 100%);
+    background-image: -webkit-linear-gradient(bottom, #679CCE 0%, #497EB0 100%);
+    background-image: -ms-linear-gradient(bottom, #679CCE 0%, #497EB0 100%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, #679CCE),
+        color-stop(1, #497EB0)
+        );
+
+    box-shadow: none;
+}
+
+/* Content */
+
+.save-button{
+    float: right;
+    display: inline;
+}
+
+.jobthemes-settings-headline{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 0 1px 0 #f5f5f5;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    border-bottom: 1px solid #c0c0c0;
+    overflow: hidden;
+}
+
+#jobthemes-content h2{
+    display: inline;
+    float: left;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #666;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 0 1px 0 #f5f5f5;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+
+
+#jobthemes-meta-info h1{
+    font-family: 'Rokkitt', serif;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 18px;
+    text-shadow: 0 1px 0 #2b2b2b;  
+    margin-top: 0;
+}
+
+
+#jobthemes-meta-info h2{
+    font-family: 'Arial', sans-serif;
+    color: #898989;
+    font-weight: normal;
+    font-size: 10px;
+    text-shadow: 0 1px 0 #2b2b2b;  
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+
+
+	 a.tooltip {outline:none;
+ 
+  background: url("../images/help.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 16px;
+    margin-left: 7px;
+    width: 16px;
+	border: 0px solid #000;
+ 
+ 
+
+ } a.tooltip strong {line-height:30px;} a.tooltip:hover {text-decoration:none;} a.tooltip span { z-index:10;display:none; padding:10px 10px; margin-top:-30px; margin-left:28px; width:260px; line-height:16px; } a.tooltip:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;} .callout {z-index:20;position:absolute;top:30px;border:0;left:-12px;} /*CSS3 extras*/ a.tooltip span { border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 5px 5px 8px #CCC; -webkit-box-shadow: 5px 5px 8px #CCC; box-shadow: 5px 5px 8px #CCC; }	
+	
+	
+	
+
+	
+#jobthemes-content label{
+    
+    font-size: 12px;
+    color: #535356;
+    display: inline-block;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 0 1px 0 #f5f5f5;
+	
+}
+
+#jobthemes-content input[type="radio"], #jobthemes-content input[type="checkbox"]{
+    display: inline-block;
+}
+
+.jobthemes-fullwidth{
+    width: 389px;
+}
+
+.tab-content .separator{
+    border-bottom: 1px solid #d6d6d6;
+    border-top: 1px solid #f5f5f5;
+    margin-bottom: 0;
+    padding-top: 5px;
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+.tab-content  .separatorq:nth-last-child(1){
+    border: none;
+    border-top: 1px solid #f5f5f5;
+}
+
+.tab-content .separator:nth-child(2){
+    margin-bottom: 0;
+    border: none;
+    border-bottom: 1px solid #d6d6d6;
+    padding-top: 0;
+}
+#jobthemes-content .label{
+    height: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+#jobthemes-content .description{
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-bottom: 20px;
+    color: #555;
+	font-style: normal !important;
+	font-size: 11px  !important;
+	
+}
+
+/* Main Menu */
+
+#jobthemes-main-menu p{
+    margin: 0;
+}
+
+#jobthemes-main-menu{
+    list-style: none;
+    font-family: 'Arial', serif;
+    color: #f5f5f8;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow: 0 1px 0 #2b2b2b;  
+    margin: 0;
+    padding: 0; 
+    border: 1px solid #252525;
+}
+
+#jobthemes-main-menu li{
+    margin-bottom: 0;
+}
+
+#jobthemes-main-menu p{
+    line-height: 45px;
+    cursor: pointer;
+}
+
+.settings-content{
+    float: right;
+    width: 440px;
+}
+
+#jobthemes-main-menu > li p{
+    background: url('../images/top_men_bg.png');  
+    border-top: 1px solid #535356;
+    border-bottom: 1px solid #252525;
+    padding-left: 50px;
+    position: relative;
+}
+
+#jobthemes-main-menu > li:nth-last-child(1) > p{
+    border-bottom: none;
+}
+
+#jobthemes-main-menu li p:hover{
+    box-shadow: 0 0 25px #2a2a2a inset;
+    border-top: 1px solid #2a2a2a;
+}
+
+#jobthemes-main-menu li p:active{
+    box-shadow: 0 0 25px #121212 inset;
+    border-top: 1px solid #121212;
+}
+
+#jobthemes-main-menu a{
+    text-decoration: none;
+    color: #f5f5f8;
+    text-shadow: 0 1px 0 #2b2b2b;  
+}
+
+#jobthemes-main-menu > li > ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: none;
+}
+
+.jobthemes_image_preview img{
+    max-width: 380px;
+    margin: 5px 3px 0;
+    padding: 2px;
+    background: white;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    
+    
+    background: #ffffff;
+    border: 1px solid #c1c1c1;
+    border-bottom: 2px solid #c1c1c1;
+}
+
+.jobthemes_image_preview img:hover{
+    border: 1px solid #d3d3d3;
+    border-bottom: 2px solid #d3d3d3;
+}
+
+#jobthemes-main-menu > li > ul li p:hover{
+    box-shadow: 0 0 25px #191919 inset;
+    border-top: 1px solid #191919;
+}
+
+#jobthemes-main-menu > li > ul li p:active{
+    box-shadow: 0 0 25px #121212 inset;
+    border-top: 1px solid #121212;
+}
+
+#jobthemes-main-menu > li > ul li p{
+    background: #2d2d2d;
+    border-bottom: 1px solid #252525;
+    border-top: 1px solid #2d2d2d;
+    padding-left: 25px;
+    position: relative;
+}
+
+#jobthemes-main-menu > li > ul li:nth-last-child(1) p{
+    border-bottom: none;
+}
+
+#jobthemes-main-menu > li > ul li p:after{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    content: ' ';
+    background: url('../images/arrow.png');
+    width: 9px;
+    height: 15px;
+}
+
+
+.jobthemes-button-blue, .jobthemes-button{
+    margin: 5px 2px;
+    line-height: 40px;
+}
+
+.jobthemes-image-radio,
+.jobthemes-image-checkbox{
+    margin: 5px;
+    padding: 5px 5px 0;
+    float: left;
+    text-align: center;
+    width: auto !important;
+}
+
+.cOf{
+    overflow: hidden;
+    display: block;
+}
+
+.jobthemes-img-selected{
+    background: #558bbc;
+    border: 1px solid #c1c1c1;
+    border-bottom: 2px solid #c1c1c1;
+    color: white !important;
+    text-shadow: none !important;
+}
+
+.jobthemes-image-radio p,
+.jobthemes-image-checkbox p{
+    margin: 0;
+}
+
+.centerInfo h4{
+    font-size: 12px!important;
+    font-weight: normal;
+    color: #535356;
+    text-align: center;
+    margin-top: 5px !important;
+    margin-bottom: 0 !important;
+    font-style: italic;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 0 1px 0 #f5f5f5;
+}
+
+.centerInfo img{
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.centerInfo {
+    width: 300px;
+    margin: 50px auto;
+}
+
+
+.jobthemes-image-radio-b,
+.jobthemes-image-checkbox-b{
+    background: black;
+    display: none !important;
+}
+
+
+#jobthemes-main-menu > li span{
+    position: absolute;
+    left: 0;
+    top: 14px;
+    left: 25px;
+    width: 16px;
+    height: 16px;
+}
+
+.logo_jobthemes{
+    width: 89px !important;
+    margin-bottom: 10px;
+    margin-left: 104px !important;
+}
+
+
+
+
+
+
+/* icons */
+
+
+.jobthemes-icon-home{ 
+    background: url('../images/icons/user-home.png');
+}
+
+.jobthemes-icon-star{
+    background: url('../images/icons/user-bookmarks.png');
+}
+
+.jobthemes-icon-down{ 
+    background: url('../images/icons/go-down.png');
+}
+
+.jobthemes-icon-next{ 
+    background: url('../images/icons/go-next.png');
+}
+
+.jobthemes-icon-previous{ 
+    background: url('../images/icons/go-previous.png');
+}
+
+.jobthemes-icon-up{ 
+    background: url('../images/icons/go-up.png');
+}
+
+.jobthemes-icon-voldown{ 
+    background: url('../images/icons/audio-volume-low.png');
+}
+
+.jobthemes-icon-volmedium{
+    background: url('../images/icons/audio-volume-medium.png');
+}
+
+.jobthemes-icon-volmuted{ 
+    background: url('../images/icons/audio-volume-muted.png');
+}
+
+.jobthemes-icon-close{ 
+    background: url('../images/icons/close.png');
+}
+
+.jobthemes-icon-warning{ 
+    background: url('../images/icons/dialog-warning.png');
+}
+
+.jobthemes-icon-circlecheck{ 
+    background: url('../images/icons/emblem-default.png');
+}
+
+.jobthemes-icon-dup{
+    background: url('../images/icons/direction-top.png');
+}
+
+.jobthemes-icon-ddown{ 
+    background: url('../images/icons/direction-bottom.png');
+}
+
+.jobthemes-icon-dleft{ 
+    background: url('../images/icons/direction-left.png');
+}
+
+.jobthemes-icon-dright{ 
+    background: url('../images/icons/direction-right.png');
+}
+
+.jobthemes-icon-download{ 
+    background: url('../images/icons/emblem-downloads.png');
+}
+
+.jobthemes-icon-emblem-shared{ 
+    background: url('../images/icons/emblem-shared.png');
+}
+
+.jobthemes-icon-folder{ 
+    background: url('../images/icons/folder.png');
+}
+
+.jobthemes-icon-group-chat{ 
+    background: url('../images/icons/internet-group-chat.png');
+}
+
+.jobthemes-icon-mail{ 
+    background: url('../images/icons/internet-mail.png');
+}
+
+.jobthemes-icon-list-add{ 
+    background: url('../images/icons/list-add.png');
+}
+
+.jobthemes-icon-calendar{ 
+    background: url('../images/icons/office-calendar.png');
+}
+
+.jobthemes-icon-list-remove{ 
+    background: url('../images/icons/list-remove.png');
+}
+
+.jobthemes-icon-readonly{ 
+    background: url('../images/icons/emblem-readonly.png');
+}
+
+.jobthemes-icon-unreadable{ 
+    background: url('../images/icons/emblem-unreadable.png');
+}
+
+.jobthemes-icon-texteditor{ 
+    background: url('../images/icons/accessories-text-editor.png');
+}
+
+.jobthemes-icon-list{ 
+    background: url('../images/icons/list.png');
+}
+
+.jobthemes-icon-playback-start{ 
+    background: url('../images/icons/media-playback-start.png');
+}
+
+.jobthemes-icon-playback-pause{ 
+    background: url('../images/icons/media-playback-pause.png');
+}
+
+.jobthemes-icon-playback-stop{ 
+    background: url('../images/icons/media-playback-stop.png');
+}
+
+.jobthemes-icon-record{ 
+    background: url('../images/icons/media-record.png');
+}
+
+.jobthemes-icon-grid{ 
+    background: url('../images/icons/grid.png');
+}
+
+.jobthemes-icon-start-here{ 
+    background: url('../images/icons/start-here.png');
+}
+
+.jobthemes-icon-search{ 
+    background: url('../images/icons/system-search.png');
+}
+
+.jobthemes-icon-person{ 
+    background: url('../images/icons/person.png');
+}
+
+.jobthemes-icon-tag{ 
+    background: url('../images/icons/tag.png');
+}
+
+.jobthemes-icon-time{ 
+    background: url('../images/icons/time.png');
+}
+
+.jobthemes-icon-trash{ 
+    background: url('../images/icons/user-trash.png');
+}
+
+.jobthemes-icon-window{ 
+    background: url('../images/icons/window.png');
+}
+
+.jobthemes-icon-upload{ 
+    background: url('../images/icons/upload.png');
+}
+
+.jobthemes-icon-recycle{ 
+    background: url('../images/icons/recycle.png');
+}
+
+.jobthemes-icon-font{ 
+    background: url('../images/icons/font.png');
+}
+
+.jobthemes-icon-trash-full{ 
+    background: url('../images/icons/trash-full.png');
+}
+
+.jobthemes-icon-desktop{ 
+    background: url('../images/icons/user-desktop.png');
+}
+
+.jobthemes-icon-refresh{ 
+    background: url('../images/icons/view-refresh.png');
+}
+
+.jobthemes-icon-recycle-full{ 
+    background: url('../images/icons/recycle-filled.png');
+}
+
+.jobthemes-icon-info{ 
+    background: url('../images/icons/dialog-information.png');
+}
+
+.jobthemes-icon-text-file{ 
+    background: url('../images/icons/text-x-generic.png');
+}
+
+.jobthemes-icon-favorite{ 
+    background: url('../images/icons/emblem-favorite.png');
+}
+
+.jobthemes-icon-volume-high{ 
+    background: url('../images/icons/audio-volume-high.png');
+}
+
+.jobthemes-icon-audio{ 
+    background: url('../images/icons/audio-x-generic.png');
+}
+
+.jobthemes-icon-users{ 
+    background: url('../images/icons/system-users.png');
+}
+
+.jobthemes-icon-dialog-error{ 
+    background: url('../images/icons/dialog-error.png');
+}
+
+.jobthemes-icon-important{ 
+    background: url('../images/icons/emblem-important.png');
+}
+
+.jobthemes-icon-calendar12{ 
+    background: url('../images/icons/x-office-calendar.png');
+}
+
+.jobthemes-icon-drawing{ 
+    background: url('../images/icons/x-office-drawing.png');
+}
+
+.jobthemes-icon-office-document{ 
+    background: url('../images/icons/x-office-document.png');
+}
+
+.jobthemes-icon-presentation{ 
+    background: url('../images/icons/x-office-presentation.png');
+}
+
+.jobthemes-icon-spreadsheet{ 
+    background: url('../images/icons/x-office-spreadsheet.png');
+}
+
+.jobthemes-icon-video{ 
+    background: url('../images/icons/video-x-generic.png');
+}
+
+.jobthemes-icon-fullscreen{ 
+    background: url('../images/icons/view-fullscreen.png');
+}
+
+.jobthemes-icon-folder-search{ 
+    background: url('../images/icons/folder-saved-search.png');
+}
+
+.jobthemes-icon-empty-file{ 
+    background: url('../images/icons/text-x-generic-template.png');
+}
+
+.jobthemes-icon-script{ 
+    background: url('../images/icons/text-x-script.png');
+}
+
+.jobthemes-icon-preference{ 
+    background: url('../images/icons/preferences-system.png');
+}
+
+.jobthemes-icon-address{ 
+    background: url('../images/icons/x-office-address-book.png');
+}
+
+.jobthemes-icon-image{ 
+    background: url('../images/icons/image-x-generic.png');
+}
+
+.jobthemes-icon-rss{ 
+    background: url('../images/icons/internet-news-reader.png');
+}
+
+.jobthemes-icon-application{ 
+    background: url('../images/icons/application-x-executable.png');
+}
+
+.jobthemes-icon-package{ 
+    background: url('../images/icons/package-x-generic.png');
+}
+
+.jobthemes-icon-utilities{ 
+    background: url('../images/icons/utilities-system-monitor.png');
+}
+
+
+
+#helper li.rateu { }
+#helper li.rateu a {margin-right: 5px; padding-left: 20px; background: #fb3d03 url('../images/thumbup.png') no-repeat 2px 45%; float: right;border: 1px solid #e03804; }	
+#helper li a:hover {border: 1px solid #e03804;background: #fb3d03; border-bottom: 	0px; color: #fff; }	
+#helper li.rateu a:hover {border: 1px solid #444; background: #444 url('../images/thumbup.png') no-repeat 2px 45%;}	
+	#helper li a { color: #fff; text-decoration: none; }
+	#helper li a:hover {color: #fff;}

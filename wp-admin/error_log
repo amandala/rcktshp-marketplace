@@ -1,0 +1,770 @@
+[01-Apr-2015 23:28:34 UTC] PHP Warning:  sprintf(): Too few arguments in /home/rcktshp/public_html/projects/wp-content/themes/hirebee/includes/notifications.php on line 1966
+[01-Apr-2015 23:28:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rcktshp/public_html/projects/wp-content/themes/hirebee/includes/notifications.php:1966) in /home/rcktshp/public_html/projects/wp-admin/post.php on line 233
+[01-Apr-2015 23:28:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rcktshp/public_html/projects/wp-content/themes/hirebee/includes/notifications.php:1966) in /home/rcktshp/public_html/projects/wp-includes/pluggable.php on line 1178
+[15-Apr-2015 20:16:54 UTC] wpMandrill Error: Error -2: Validation error: {"message":{"attachments":"Please enter an array"}}
+[15-Apr-2015 20:16:54 UTC] 2015-04-15 20:16:54 wpMandrill::sendEmail: Exception Caught => wpMandrill Error: -2: Validation error: {"message":{"attachments":"Please enter an array"}}
+
+[15-Apr-2015 20:16:54 UTC] 
+wpMandrill::wp_mail_native: hello@rcktshp.com ([RCKTSHP Marketplace] Your username and password)
+
+[15-Apr-2015 20:24:14 UTC] wpMandrill Error: Error -2: Validation error: {"message":{"attachments":"Please enter an array"}}
+[15-Apr-2015 20:24:14 UTC] 2015-04-15 20:24:14 wpMandrill::sendEmail: Exception Caught => wpMandrill Error: -2: Validation error: {"message":{"attachments":"Please enter an array"}}
+
+[15-Apr-2015 20:24:14 UTC] 
+wpMandrill::wp_mail_native: hello@rcktshp.com ([RCKTSHP Marketplace] Welcome to the RCKTSHP Marketplace.)
+
+[15-Apr-2015 20:32:31 UTC] wpMandrill Error: Error -2: Validation error: {"message":{"attachments":"Please enter an array"}}
+[15-Apr-2015 20:32:31 UTC] 2015-04-15 20:32:31 wpMandrill::sendEmail: Exception Caught => wpMandrill Error: -2: Validation error: {"message":{"attachments":"Please enter an array"}}
+
+[15-Apr-2015 20:32:31 UTC] 
+wpMandrill::wp_mail_native: hello@rcktshp.com ([RCKTSHP Marketplace] Welcome to the RCKTSHP Marketplace.)
+
+[15-Apr-2015 23:23:07 UTC] PHP Fatal error:  Cannot redeclare wp_new_user_notification() in /home/rcktshp/public_html/projects/wp-content/plugins/email_customizer/email_customizer.php on line 19
+[15-Apr-2015 23:23:08 UTC] PHP Fatal error:  Cannot redeclare wp_new_user_notification() in /home/rcktshp/public_html/projects/wp-content/plugins/email_customizer/email_customizer.php on line 19
+[15-Apr-2015 23:23:10 UTC] PHP Fatal error:  Cannot redeclare wp_new_user_notification() in /home/rcktshp/public_html/projects/wp-content/plugins/email_customizer/email_customizer.php on line 19
+[15-Apr-2015 23:25:45 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/rcktshp/public_html/projects/wp-content/plugins/email_customizer/email_customizer.php on line 18
+[15-Apr-2015 23:25:45 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/rcktshp/public_html/projects/wp-content/plugins/email_customizer/email_customizer.php on line 18
+[15-Apr-2015 23:25:59 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/rcktshp/public_html/projects/wp-content/plugins/email_customizer/email_customizer.php on line 18
+[15-Apr-2015 23:26:00 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/rcktshp/public_html/projects/wp-content/plugins/email_customizer/email_customizer.php on line 18
+[15-Apr-2015 23:26:01 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/rcktshp/public_html/projects/wp-content/plugins/email_customizer/email_customizer.php on line 18
+[15-Apr-2015 23:28:30 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/rcktshp/public_html/projects/wp-content/plugins/email_customizer/email_customizer.php on line 18
+[15-Apr-2015 23:28:32 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/rcktshp/public_html/projects/wp-content/plugins/email_customizer/email_customizer.php on line 18
+[15-Apr-2015 23:28:33 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/rcktshp/public_html/projects/wp-content/plugins/email_customizer/email_customizer.php on line 18
+[15-Apr-2015 23:29:10 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/rcktshp/public_html/projects/wp-content/plugins/email_customizer/email_customizer.php on line 18
+[15-Apr-2015 23:29:12 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/rcktshp/public_html/projects/wp-content/plugins/email_customizer/email_customizer.php on line 18
+[15-Apr-2015 23:29:12 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/rcktshp/public_html/projects/wp-content/plugins/email_customizer/email_customizer.php on line 18
+[17-Apr-2015 21:02:26 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[17-Apr-2015 21:02:27 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[17-Apr-2015 21:09:35 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[17-Apr-2015 21:09:35 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[17-Apr-2015 21:09:36 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[17-Apr-2015 21:12:33 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[17-Apr-2015 21:12:33 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[17-Apr-2015 21:18:50 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[17-Apr-2015 21:18:50 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[17-Apr-2015 21:24:30 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[17-Apr-2015 21:24:30 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[17-Apr-2015 21:35:56 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[17-Apr-2015 21:35:56 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[17-Apr-2015 21:58:07 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[17-Apr-2015 21:58:07 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[17-Apr-2015 21:58:07 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 15:47:14 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 15:47:32 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 15:47:32 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 17:44:50 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 17:45:11 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 17:45:34 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 17:45:34 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 19:06:51 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 19:07:00 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 19:07:08 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 19:07:08 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 19:07:11 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 19:07:22 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 19:07:39 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 19:07:40 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 19:13:35 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 19:13:35 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 19:13:52 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 19:47:29 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 19:47:29 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 20:05:17 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 20:35:27 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 20:35:28 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 20:44:37 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 20:45:35 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 20:53:01 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 20:53:01 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 21:19:48 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 21:22:31 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 21:22:31 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 21:31:35 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 21:32:01 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 21:42:33 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 21:42:33 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 21:42:34 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 21:43:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/rcktshp/public_html/projects/wp-content/themes/hirebee/includes/disputes/admin/single-dispute.php on line 186
+[22-Apr-2015 21:43:58 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 21:43:58 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 21:43:58 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 21:44:34 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 22:14:46 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 22:14:47 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 23:54:21 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 23:54:22 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[22-Apr-2015 23:54:27 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[23-Apr-2015 19:55:36 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[23-Apr-2015 19:55:36 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[24-Apr-2015 15:55:30 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[24-Apr-2015 15:55:30 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[24-Apr-2015 23:52:37 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[27-Apr-2015 15:25:42 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[27-Apr-2015 15:25:42 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[27-Apr-2015 15:39:25 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[27-Apr-2015 15:39:43 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[27-Apr-2015 15:39:44 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[27-Apr-2015 15:39:44 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[27-Apr-2015 15:39:44 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[27-Apr-2015 15:39:44 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[27-Apr-2015 15:39:47 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[27-Apr-2015 15:41:08 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[27-Apr-2015 15:41:08 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[27-Apr-2015 15:52:21 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 17:09:03 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 17:09:46 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 17:10:47 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 17:12:32 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 17:12:40 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 17:12:41 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 17:14:00 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 17:15:15 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 17:16:31 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 17:17:46 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 17:19:08 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 17:20:23 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 17:21:38 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 17:22:35 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 17:23:46 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 17:24:06 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 17:24:18 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 17:24:26 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 17:24:27 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 17:25:43 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 20:43:05 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 20:43:05 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 20:46:52 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 20:46:53 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 20:56:14 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 20:56:15 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 21:07:39 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 21:07:39 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 21:25:52 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 21:25:52 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 21:32:46 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 21:32:46 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 21:39:24 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 21:39:24 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 21:47:08 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 21:47:08 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 21:47:08 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 21:47:09 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 21:47:09 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 21:47:09 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 21:47:17 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 21:47:17 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 22:07:34 UTC] WordPress database error Duplicate column name 'id' for query ALTER TABLE edfg_duplicator_packages ADD COLUMN `id`			BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT  PRIMARY KEY made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), call_user_func_array, duplicator_update, duplicator_activate, dbDelta
+[28-Apr-2015 22:07:34 UTC] WordPress database error Duplicate column name 'name' for query ALTER TABLE edfg_duplicator_packages ADD COLUMN `name`		VARCHAR(250)	NOT NULL made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), call_user_func_array, duplicator_update, duplicator_activate, dbDelta
+[28-Apr-2015 22:07:34 UTC] WordPress database error Duplicate column name 'hash' for query ALTER TABLE edfg_duplicator_packages ADD COLUMN `hash`		VARCHAR(50)		NOT NULL made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), call_user_func_array, duplicator_update, duplicator_activate, dbDelta
+[28-Apr-2015 22:07:34 UTC] WordPress database error Duplicate column name 'status' for query ALTER TABLE edfg_duplicator_packages ADD COLUMN `status`		INT(11)			NOT NULL made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), call_user_func_array, duplicator_update, duplicator_activate, dbDelta
+[28-Apr-2015 22:07:34 UTC] WordPress database error Duplicate column name 'created' for query ALTER TABLE edfg_duplicator_packages ADD COLUMN `created`	DATETIME		NOT NULL DEFAULT '0000-00-00 00:00:00' made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), call_user_func_array, duplicator_update, duplicator_activate, dbDelta
+[28-Apr-2015 22:07:34 UTC] WordPress database error Duplicate column name 'owner' for query ALTER TABLE edfg_duplicator_packages ADD COLUMN `owner`		VARCHAR(60)		NOT NULL made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), call_user_func_array, duplicator_update, duplicator_activate, dbDelta
+[28-Apr-2015 22:07:34 UTC] WordPress database error Duplicate column name 'package' for query ALTER TABLE edfg_duplicator_packages ADD COLUMN `package`	MEDIUMBLOB		NOT NULL made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), call_user_func_array, duplicator_update, duplicator_activate, dbDelta
+[28-Apr-2015 22:07:34 UTC] WordPress database error Duplicate key name 'hash' for query ALTER TABLE edfg_duplicator_packages ADD KEY `hash` (`hash`) made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), call_user_func_array, duplicator_update, duplicator_activate, dbDelta
+[28-Apr-2015 22:19:40 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 22:19:40 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 22:56:54 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[28-Apr-2015 22:56:54 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 16:49:21 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 16:49:22 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 16:50:24 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 16:50:24 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 17:00:14 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 17:00:14 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 17:11:54 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 17:11:54 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 17:17:52 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 17:17:52 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 17:18:04 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 17:40:52 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 17:40:52 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 18:37:00 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 18:37:01 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 18:59:49 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 19:01:40 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 19:01:41 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 19:01:46 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 19:24:13 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 19:24:13 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 20:02:18 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 20:02:18 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 20:56:34 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 20:56:34 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 20:56:34 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 20:56:34 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 20:56:35 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 20:56:35 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 20:56:35 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 20:56:35 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 20:57:26 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 20:57:26 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 21:55:45 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 21:55:45 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 22:17:24 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 22:17:24 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 22:52:41 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[29-Apr-2015 22:52:41 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[30-Apr-2015 16:08:21 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[30-Apr-2015 20:05:55 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[30-Apr-2015 20:06:04 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[30-Apr-2015 20:06:04 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[30-Apr-2015 21:02:28 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[30-Apr-2015 21:10:40 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[30-Apr-2015 21:10:41 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[30-Apr-2015 21:57:56 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[30-Apr-2015 21:57:56 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[30-Apr-2015 21:57:56 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[30-Apr-2015 21:57:57 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[30-Apr-2015 21:57:57 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[30-Apr-2015 21:57:57 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[30-Apr-2015 21:57:57 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[30-Apr-2015 21:57:58 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[30-Apr-2015 21:57:58 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[30-Apr-2015 22:43:35 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[30-Apr-2015 22:43:35 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[30-Apr-2015 22:43:36 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[01-May-2015 16:47:54 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[01-May-2015 16:47:54 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[01-May-2015 16:51:32 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[01-May-2015 16:51:32 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[01-May-2015 16:51:50 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[01-May-2015 17:00:48 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[01-May-2015 17:00:48 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[04-May-2015 17:57:39 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[04-May-2015 19:19:28 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[04-May-2015 19:19:28 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[04-May-2015 19:19:45 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[04-May-2015 19:19:45 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project -  - has been approved!)
+
+[04-May-2015 22:26:29 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - 1 Test - was updated)
+
+[05-May-2015 15:32:34 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - 1 Tuesday - was updated)
+
+[05-May-2015 16:17:32 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - Copywriter to populate FairGoods' website - was updated)
+
+[05-May-2015 18:47:26 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - I need a web developer - was updated)
+
+[05-May-2015 18:47:37 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - Looking for a web developed to create a Wordpress plugin - was updated)
+
+[05-May-2015 19:56:31 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - Copywriter to populate FairGoods' website - was updated)
+
+[05-May-2015 21:40:38 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - I need a graphic designer to make a logo - was updated)
+
+[05-May-2015 22:07:48 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - Photographer for company photos - was updated)
+
+[05-May-2015 22:15:13 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - testing gender issues - was updated)
+
+[05-May-2015 22:20:36 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - Testing gender issues - was updated)
+
+[06-May-2015 16:16:12 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - I need a student to build a plugin for my wordpress site - was updated)
+
+[06-May-2015 16:32:20 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - Test 2 - was updated)
+
+[06-May-2015 17:50:50 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - I need a web developed to test the payment workflow - was updated)
+
+[06-May-2015 18:41:39 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - Promotions specialist for company events - was updated)
+
+[06-May-2015 19:04:34 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - I need someone to set up Google Analyticks for my web site. - was updated)
+
+[06-May-2015 19:21:57 UTC] WordPress database error Duplicate column name 'id' for query ALTER TABLE edfg_duplicator_packages ADD COLUMN `id`			BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT  PRIMARY KEY made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), call_user_func_array, duplicator_update, duplicator_activate, dbDelta
+[06-May-2015 19:21:57 UTC] WordPress database error Duplicate column name 'name' for query ALTER TABLE edfg_duplicator_packages ADD COLUMN `name`		VARCHAR(250)	NOT NULL made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), call_user_func_array, duplicator_update, duplicator_activate, dbDelta
+[06-May-2015 19:21:57 UTC] WordPress database error Duplicate column name 'hash' for query ALTER TABLE edfg_duplicator_packages ADD COLUMN `hash`		VARCHAR(50)		NOT NULL made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), call_user_func_array, duplicator_update, duplicator_activate, dbDelta
+[06-May-2015 19:21:57 UTC] WordPress database error Duplicate column name 'status' for query ALTER TABLE edfg_duplicator_packages ADD COLUMN `status`		INT(11)			NOT NULL made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), call_user_func_array, duplicator_update, duplicator_activate, dbDelta
+[06-May-2015 19:21:57 UTC] WordPress database error Duplicate column name 'created' for query ALTER TABLE edfg_duplicator_packages ADD COLUMN `created`	DATETIME		NOT NULL DEFAULT '0000-00-00 00:00:00' made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), call_user_func_array, duplicator_update, duplicator_activate, dbDelta
+[06-May-2015 19:21:57 UTC] WordPress database error Duplicate column name 'owner' for query ALTER TABLE edfg_duplicator_packages ADD COLUMN `owner`		VARCHAR(60)		NOT NULL made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), call_user_func_array, duplicator_update, duplicator_activate, dbDelta
+[06-May-2015 19:21:57 UTC] WordPress database error Duplicate column name 'package' for query ALTER TABLE edfg_duplicator_packages ADD COLUMN `package`	MEDIUMBLOB		NOT NULL made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), call_user_func_array, duplicator_update, duplicator_activate, dbDelta
+[06-May-2015 19:21:57 UTC] WordPress database error Duplicate key name 'hash' for query ALTER TABLE edfg_duplicator_packages ADD KEY `hash` (`hash`) made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), call_user_func_array, duplicator_update, duplicator_activate, dbDelta
+[06-May-2015 21:41:42 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - Marketing strategist for email campaigns - was updated)
+
+[06-May-2015 21:55:07 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - Marketing strategist for email campaigns - was updated)
+
+[07-May-2015 16:01:57 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - I need someone to set up Google Analytics for my web site. - was updated)
+
+[07-May-2015 16:49:06 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - I need a web developer to make a plugin - was updated)
+
+[07-May-2015 18:00:41 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - I need a web developer to make a plugin - was updated)
+
+[08-May-2015 16:19:00 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - I need a web developer to create a plugin for my Wordpress site - was updated)
+
+[08-May-2015 16:24:49 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - I need a web developer to create a plugin for my Wordpress site - was updated)
+
+[08-May-2015 19:03:01 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - Designer to come up with a new color scheme and logo - was updated)
+
+[08-May-2015 19:35:37 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - Testing clarification board - was updated)
+
+[08-May-2015 21:40:13 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - Testing notifications - was updated)
+
+[11-May-2015 16:31:41 UTC] 2015-05-11 16:31:41 wpMandrill::getCurrentStats (Empty Transient. Getting persistent copy)
+
+[11-May-2015 16:31:41 UTC] 2015-05-11 16:31:41 wpMandrill::getCurrentStats (Empty persistent copy. Getting data from Mandrill)
+
+[11-May-2015 16:50:56 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - I need a web developer to create a custom plugin for my site. - was updated)
+
+[11-May-2015 19:39:59 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - Copywriter to populate new company website - was updated)
+
+[11-May-2015 21:45:48 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - Looking for a girl named Amanda - was updated)
+
+[11-May-2015 22:04:29 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - web developer - was updated)
+
+[11-May-2015 22:26:18 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - wr - was updated)
+
+[11-May-2015 22:45:21 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - qr - was updated)
+
+[12-May-2015 22:03:52 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - I need a web developer to design me a new website - was updated)
+
+[13-May-2015 17:55:26 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - wednesday test - was updated)
+
+[13-May-2015 19:46:15 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - Web Developer To Create A Plugin - was updated)
+
+[13-May-2015 20:53:38 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - test - was updated)
+
+[13-May-2015 21:47:57 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - Student to run our twitter account - was updated)
+
+[13-May-2015 22:06:02 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - I need a web developer to write a Wordpress plugin - was updated)
+
+[13-May-2015 22:11:31 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - sdfsdfg - was updated)
+
+[13-May-2015 23:13:44 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - student to test negotiation process - was updated)
+
+[14-May-2015 17:31:13 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - er - was updated)
+
+[14-May-2015 19:26:18 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - testing gateway - was updated)
+
+[14-May-2015 19:50:45 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - tert - was updated)
+
+[14-May-2015 19:56:24 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - live fund - was updated)
+
+[14-May-2015 20:01:53 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - live fund 2 - was updated)
+
+[14-May-2015 22:43:32 UTC] 
+wpMandrill::wp_mail_native:  ([RCKTSHP Marketplace] Your project - kamela - was updated)
+

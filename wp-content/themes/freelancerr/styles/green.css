@@ -1,0 +1,63 @@
+/*  =========== [ Green Stylesheet Colors: Table of Contents ] =========== */
+/*
+*/
+a {
+  color: #1fba5a;
+}
+
+.nw-row .dropdown.button {
+  color: #fff;
+}
+
+.top-navigation , .top-navigation .top-bar {
+  background: #6aba39;
+}
+
+.primario , .primario .left ul ul li a:hover {
+  background-color: #399814;
+}
+
+.nw-row .button,.project-dropdown .button[disabled] , .project-dropdown .button:hover, .project-dropdown .button[disabled]:hover {
+  background-color: #399814;
+}
+
+.search-button button,.sidebar-archive .section-head input , .primario .left li:before, .primario .left li:hover:before {
+  background-color: #1a8241;
+}
+
+.search-button button:hover, .sidebar-archive .section-head input:hover {
+  background-color: #146a35;
+}
+
+.featured > h2, .featured.project > h2:hover ,  .featured .project-meta-below-desc , .featured .project-cat a {
+  background-color: #399814;
+}
+
+.featured > h2, .featured > h2 , form input.button[type="submit"]:hover:not(.secondary):not(:disabled), form input[type="submit"]:hover {
+  background-color: #399814;
+}
+
+.featured .project-meta, .featured .project-description, .featured .project-author-meta , form input[type="submit"] , .freelancers-header .article-title h3 {
+  background-color: #34bd68;
+}
+
+.featured .project-cat a, .featured .project-meta-below-desc , .featured .project-meta-below-desc i, .featured .project-meta-below-desc a , ct-meta, .featured .project-description, .featured .proje
+, #projects .project-meta .project-num-proposals {
+  color: #fff;
+}
+
+.featured .project-skills .label:after {
+  border-left-color: #34bd68;
+}
+
+.featured .label {
+  background-color: #34bd68;
+}
+
+.featured .project-meta, .featured .project-description, .featured .project-author-meta, .featured .project-cat a, .featured .project-meta-below-desc , .featured .project-author-meta, .featured .project-budget-wrapper, .featured .project-num-proposals, .featured .project-description, .featured .project-meta-below-desc, .featured .project-location, .featured .project-cat {
+  border-color: #399814;
+}
+
+.create-project .selected-currency, .create-project .budget-currency .custom.dropdown a, .create-project .location-type .custom.dropdown a, .create-project .section-head h1, .purchase-plans .section-head h1, .agreement .section-head h1, .create-project form.custom .selector, .purchase-plans form.custom .selector, .dashboard-workspace form.custom .selector, .edit-profile form.custom .selector, #load-saved-filter-form .selector {
+  background-color: #399814;
+}

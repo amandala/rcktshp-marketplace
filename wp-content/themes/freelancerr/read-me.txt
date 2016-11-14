@@ -1,0 +1,73 @@
+Thank You for purchasing Freelancerr A Super premium Hirebee child theme.
+
+****************************************************
+DESCRIPTION:
+****************************************************
+
+Freelancerr is Super Premium Hirebee child theme. It comes with a flat & modern design.
+Easy to customize via theme option to have a unique look & feel, with lot of features and options.
+
+**************************************************** 
+FEATURES:
+**************************************************** 
+
+// Extensive Theme Options
+Freelancerr has very easy and comprehensive set of theme options that will help you configure your site.
+
+//8 Color schemes
+It comes with 6 predefined skins and theme options layouts that you may use for different purposes.
+
+
+//Advertising module
+Freelancerr is packed with enhanced ad modules that turns your site into a hits generator.
+
+//Fully compatible with Hirebee 1.1.0+
+
+//Freelancerr is fully responsive with the latest version of Hirebee.
+
+
+
+**************************************************** 
+
+Required : This theme is a premium Hirebeechild theme, You need your own Hirebee Theme to make it work.
+
+Compatible: Hirebee 1.1.0
+
+****************************************************
+INSTALLATION:
+****************************************************
+
+//Using WordPress dashboard:
+
+    -Go to appearance => themes
+    -Install new theme
+	-Select the Freelancerr zip and upload it
+    -Activate the theme.
+
+//Using FTP:
+
+    -Extract the Freelancerr zip file and just drop the contents in the wp-content/themes/
+    -Activate the theme in WordPress admin =>Appearance
+    -Your Freelancerr now is installed and ready for use.
+
+Note: After activating the theme, a sub menu would be created for the theme options.
+
+PS: Make sure the folder of the parent Hirebee  is named Hirebee ( so it appears like this: /themes/hirebee/ )
+
+****************************************************
+Configuring Freelancerr (Menus and Widgets)
+
+****************************************************
+1- Custom Menus:
+
+To manage the primary menu (header) go to your wordpress dashboard=>Appearance=>Menu.
+
+In theme locations, you find 3 menu locations, primary ,top and footer menu.
+
+The main menu is labelled as Primary menu (to change it, Create your own custom menu and select it in theme location).
+The top header menu is labelled as Top menu (to change it, Create your own custom menu and select it in theme location).
+The footer menu is labelled as Footer menu (to change it, Create your own custom menu and select it in theme location).
+********************************************************************************************************
+For help and support, please feel free to contact us at contact@jobthemes.com
+
+Enjoy your premium theme!

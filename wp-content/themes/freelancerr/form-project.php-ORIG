@@ -1,0 +1,408 @@
+<div class="section-head">
+	<h1><?php _e( 'Details', APP_TD ); ?></h1>
+</div>
+
+<?php
+
+	$package = $_POST['package_id'];
+	$meta = get_post_meta($package);
+
+	echo '<br /><br />';
+
+	$custom = get_post_custom($_POST['package_id']);
+
+
+
+?>
+
+
+<form id="create-project-form" class="custom main" enctype="multipart/form-data" method="post" action="<?php echo esc_url( $form_action ); ?>">
+
+
+	<fieldset id='project-title'>
+		<legend><?php _e( 'Essential info', APP_TD ); ?></legend>
+		<div class="row">
+			<div class="large-12 columns">
+				<label for="post_title"><?php _e( 'What do you need?', APP_TD ); ?></label>
+				<input name="post_title" tabindex="1" type="text" placeholder="<?php echo esc_attr__( 'e.g: I need a Web Developer to develop a plugin', APP_TD ); ?>" value="<?php echo esc_attr( $project->post_title ); ?>" class="required" />
+			</div>
+		</div>
+	</fieldset>
+
+	<fieldset id="project-category">
+		<legend><?php _e( 'Categories', APP_TD ); ?></legend>
+		<div class="row">
+			<div class="large-6 columns category-dropdown">
+				<div class="row">
+					<div class="large-12 columns">
+						<label for="category"><?php echo __( 'Category', APP_TD ); ?></label>
+							<?php
+								$args = array(
+									'id'              => 'category',
+									'name'            => '_'.HRB_PROJECTS_CATEGORY.'[]',
+									'taxonomy'        => HRB_PROJECTS_CATEGORY,
+									'hide_empty'      => false,
+									'hierarchical'    => true,
+									'depth'           => 1,
+									'selected'        => $project->categories,
+									'class'           => 'category-dropdown required' . ( $categories_locked ? ' locked' : '' ) ,
+									'show_option_all' => __( '- Select Category -', APP_TD ),
+									'orderby'         => 'name',
+									'tab_index'       => 2
+								);
+								wp_dropdown_categories( $args );
+							?>
+
+							<?php if ( $categories_locked ): ?>
+									<input name="<?php echo '_'.HRB_PROJECTS_CATEGORY.'[]'; ?>" type="hidden" value="<?php echo esc_attr( $project->categories ); ?>">
+							<?php endif; ?>
+					</div>
+				</div>
+			</div>
+			<div class="large-6 columns sub-category-dropdown">
+				<div class="row">
+					<div class="large-12 columns">
+						<label for="sub_category"><?php echo __( 'Sub-Category', APP_TD ); ?></label>
+						<select id="sub_category" name="<?php echo esc_attr( '_'.HRB_PROJECTS_CATEGORY ); ?>[]" tabindex="3" class="subcategory-dropdown" pre-selected="<?php echo esc_attr( $project->subcategories ); ?>" >
+							<option value=""><?php echo __( '- Select Sub-Category -', APP_TD ); ?></option>
+						</select>
+					</div>
+				</div>
+			</div>
+		</div>
+	</fieldset>
+
+	<fieldset id="project-description">
+		<div class="row">
+			<div class="large-12 columns">
+				<label for="post_content"><?php _e( 'Project Details', APP_TD ); ?></label>
+				<?php if( isset($_GET['category']) ){
+					echo "<p>Here's what we recommend writing...</p>";
+				}
+				?>
+				<textarea id="project-details-textarea" name="post_content" tabindex="4" placeholder="<?php echo esc_attr__( 'Provide a detailed description of what you need to get done', APP_TD ); ?>" class="required"><?php echo $template_cat; ?></textarea>
+			</div>
+		</div>
+	</fieldset>
+
+
+
+	<fieldset id="project-skills">
+			<legend><?php _e( 'Skills', APP_TD ); ?></legend>
+		<div class="row">
+			<div class="large-12 columns">
+			<?php if ( hrb_charge_listings() ): ?>
+				<p class="important-note"><?php echo __( '<strong>Note:</strong> Categories are locked after purchase', APP_TD ); ?></p>
+			<?php endif; ?>
+			</div>
+		</div>
+
+		<?php if ( hrb_get_allowed_skills_count() ): ?>
+
+			<div class="row">
+				<div class="large-12 columns">
+					<div class="row">
+						<div class="large-12 columns">
+							<label for="skills"><?php echo __( 'Skills', APP_TD ); ?></label>
+							<?php
+								$args = array(
+									'id'           => 'skills',
+									'name'         => '_'.HRB_PROJECTS_SKILLS.'[]',
+									'taxonomy'     => HRB_PROJECTS_SKILLS,
+									'hide_empty'   => false,
+									'hierarchical' => true,
+									'selected'     => $project->skills,
+									'walker'       => new HRB_OptGroup_Category_Walker,
+									'depth'        => 5,
+									'orderby'      => 'name',
+									'echo'         => false,
+									'tab_index'    => 5
+								);
+								$dropdown = wp_dropdown_categories( $args );
+
+								// make this a multiple dropdown
+								echo str_replace( '<select ', '<select multiple="multiple"', $dropdown );
+							?>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		<?php endif; ?>
+
+		<div class="row">
+			<div class="large-12 columns">
+				<div class="row">
+					<div class="large-12 columns">
+						<label for="tags"><?php echo __( 'Tags', APP_TD ); ?></label>
+						<span class="tags-tags"></span>
+						<input id="tags" name="<?php echo esc_attr( HRB_PROJECTS_TAG ); ?>" tabindex="6" type="text" class="tm-input tm-tag" placeholder="<?php echo esc_attr__( 'Add some tags for this project. e.g: mobile, web (comma separated)', APP_TD ); ?>" value="<?php echo esc_attr( $project->tags ); ?>">
+					</div>
+				</div>
+			</div>
+		</div>
+	</fieldset>
+
+	<?php do_action( 'hrb_project_custom_fields', $project ); ?>
+
+	<fieldset id="project-budget">
+		<legend><?php _e( 'Budget', APP_TD ); ?></legend>
+		<div class="row">
+			<div class="large-4 columns">
+				<select id="budget_type" name="budget_type" tabindex="10">
+					<?php if ( ! $hrb_options->budget_types || 'fixed' == $hrb_options->budget_types ): ?>
+						<option value="fixed" <?php selected( $project->_hrb_budget_type, 'fixed' ); ?>><?php echo __( 'Fixed Price', APP_TD ); ?></option>
+					<?php endif; ?>
+					<?php if ( ! $hrb_options->budget_types || 'hourly' == $hrb_options->budget_types ): ?>
+						<option value="hourly" <?php selected( $project->_hrb_budget_type, 'hourly' ); ?>><?php echo __( 'Per Hour', APP_TD ); ?></option>
+					<?php endif; ?>
+				</select>
+			</div>
+			<div class="large-8 columns">
+				<div class="row collapse">
+					<div class="large-5 columns">
+						<span class="prefix"><?php _e( 'Currency', APP_TD ); ?></span>
+					</div>
+					<div class="large-7 columns budget-currency">
+						<select id="budget_currency" name="budget_currency" tabindex="11">
+							<?php foreach( hrb_get_currencies() as $key => $currency ): ?>
+							<option currency-symbol="<?php echo $currency['symbol'] ?>" value="<?php echo esc_attr( $key ); ?>" <?php selected( $project->_hrb_budget_currency ? $project->_hrb_budget_currency : APP_Currencies::get_current_currency('code'), $key ); ?>><?php echo $currency['name']; ?></option>
+							<?php endforeach; ?>
+						</select>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<hr/>
+
+		<div class="row">
+			<div class="large-6 columns">
+				<div class="row collapse">
+					<div class="large-6 small-6 columns budget-price">
+						<span class="prefix"><?php _e( 'Price', APP_TD ); ?></span>
+					</div>
+					<div class="large-1 small-1 columns">
+						<span class="prefix selected-currency center">$</span>
+					</div>
+					<div class="large-5 small-5 columns">
+						<input id="budget_price" name="budget_price" tabindex="12" type="text" class="required" placeholder="<?php echo esc_attr__( 'e.g: 40', APP_TD ); ?>" value="<?php echo esc_attr( $project->_hrb_budget_price ); ?>"/>
+					</div>
+				</div>
+			</div>
+			<div class="large-6 columns">
+				<div class="row collapse budget-min-hours">
+					<div class="large-6 small-6 columns">
+						<span class="prefix"><?php _e( 'Min. Hours', APP_TD ); ?></span>
+					</div>
+					<div class="large-6 small-6 columns">
+						<input id="hourly_min_hours" name="hourly_min_hours" tabindex="13" type="text" class="required" placeholder="<?php echo esc_attr__( 'e.g: 8', APP_TD ); ?>" value="<?php echo esc_attr( $project->_hrb_hourly_min_hours ); ?>"/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</fieldset>
+
+    <?php if ( ! hrb_charge_listings() ): ?>
+
+        <fieldset>
+            <legend><?php _e( 'Duration', APP_TD ); ?></legend>
+            <div class="row">
+                <div class="large-8 columns">
+                    <div class="row collapse">
+                        <div class="large-6 columns">
+                            <span class="prefix"><?php echo __( 'Post this Project for', APP_TD ); ?></span>
+                        </div>
+                        <div class="large-3 columns">
+                            <input id="duration" name="duration" tabindex="14" type="text" <?php echo ( ! $hrb_options->project_duration_editable ? 'readonly' : '' ); ?> class="required" placeholder="<?php echo esc_attr__( 'e.g: 30', APP_TD ); ?>" value="<?php echo esc_attr( $project->_hrb_duration ? $project->_hrb_duration : $hrb_options->project_duration ); ?>" />
+                        </div>
+                        <div class="large-3 columns">
+                            <span class="postfix"><?php echo __( 'Days', APP_TD ); ?></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <?php if ( $hrb_options->project_duration ): ?>
+            <div class="row">
+                <div class="large-8 columns">
+                    <div class="row">
+                        <div class="large-8 columns">
+                            <label><?php echo sprintf( __( 'Maximum days allowed is %1$d %2$s', APP_TD ), $hrb_options->project_duration, ( ! $hrb_options->project_duration_editable ? __( '(not editable)', APP_TD ) : '' ) ); ?></label>
+                        </div>
+                    </div>
+            </div>
+            <?php endif; ?>
+        </fieldset>
+
+    <?php endif; ?>
+
+	<fieldset id="optional-fields">
+		<legend><?php _e( 'Other', APP_TD ); ?></legend>
+
+		<?php if ( ! $hrb_options->local_users ): ?>
+
+			<div class="row">
+				<div class="large-12 columns">
+					<div class="row collapse">
+						<div class="large-2 small-4 columns">
+							<span class="prefix"><?php _e( 'Location', APP_TD ); ?></span>
+						</div>
+						<div class="large-3 small-4 columns location-type">
+							<select id="location_type" name="location_type" tabindex="16">
+
+								<?php if ( ! $hrb_options->location_types || 'remote' == $hrb_options->location_types ): ?>
+									<option value="remote" <?php selected( $project->_hrb_location_type, 'remote' ); ?>><?php echo __( 'Remote', APP_TD ); ?></option>
+								<?php endif; ?>
+								<?php if ( ! $hrb_options->location_types || 'local' == $hrb_options->location_types ): ?>
+									<option selected='selected' value="local" <?php selected( $project->_hrb_location_type, 'local' ); ?>><?php echo __( 'Local', APP_TD ); ?></option>
+								<?php endif; ?>
+							</select>
+						</div>
+						<div class="large-7 columns custom-location">
+							<input type="text" id="location" name="location" tabindex="17" data-geo="formatted_address" placeholder="<?php echo esc_attr__( 'e.g: New York', APP_TD ); ?>" class="required" value="<?php echo esc_attr( $project->_hrb_location ); ?>" />
+							<?php
+								foreach ( hrb_get_geocomplete_attributes() as $location_att ) :
+									$meta_key = "_hrb_location_{$location_att}";
+							?>
+									<input type="hidden" id="<?php echo esc_attr( $meta_key ); ?>" name="<?php echo esc_attr( $meta_key ); ?>" data-geo="<?php echo esc_attr( $location_att ); ?>" value="<?php echo esc_attr( $project->$meta_key ); ?>" />
+							<?php endforeach; ?>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		<?php endif; ?>
+
+		<?php if ( $hrb_options->attachments ): ?>
+
+			<div class="row">
+				<div class="large-12 columns">
+					<?php hrb_media_manager( $project->ID, array( 'id' => '_app_media', 'title' => __( 'Files', APP_TD ) ) );  ?>
+				</div>
+			</div>
+
+		<?php endif; ?>
+
+
+	</fieldset>
+
+
+
+
+	<?php do_action( 'hrb_project_form', $project ); ?>
+
+	<fieldset class='no-bottom-border'>
+		<?php do_action( 'hrb_project_form_fields', $project ); ?>
+
+		<?php wp_nonce_field('hrb_post_project'); ?>
+
+		<?php
+			hrb_hidden_input_fields(
+				array(
+					'ID'	=> esc_attr( $project->ID ),
+					'action'=> esc_attr( $action ),
+				)
+			);
+		?>
+
+		<input tabindex="20" type="submit" class="button orange" value="<?php echo esc_attr( $bt_step_text ); ?>" />
+	</fieldset>
+</form>
+<?php
+$photos_selected = $_POST['addon_photos_selected'];
+$content_selected = $_POST['addon_content_selected'];
+?>
+
+<script>
+
+
+	jQuery(document).ready(function() {
+
+		var package_id ="<?php echo $package ?>";
+		var package_price = "<?php echo $price ?>";
+		var meta = jQuery.parseJSON('<?php echo json_encode($meta); ?>');
+		var has_photos = "<?php echo $photos_selected ?>";
+		var has_content = "<?php echo $content_selected ?>";
+
+
+		console.log(meta);
+
+		//if a package was used to build this description
+		if(package_id !== ''){
+			//update the project category
+			jQuery('#category :selected').text('Web Development');
+			jQuery('.category-dropdown').children('.current').text('Web Development');
+
+
+			//update the projecct price with the total created on the first step
+			jQuery('input[id=budget_price]').val("<?php echo $_POST['package_price'] ?>");
+
+
+			//build the description
+			// TODO build the project description - use the details section of the backend to create content
+			//
+
+			jQuery('#project-details-textarea').append("The website will include:" + '\n');
+
+			jQuery.each( meta.includes, function( key, value ) {
+				jQuery('#project-details-textarea').append(value + '\n');
+			});
+
+			jQuery('#project-details-textarea').append( '\n' + "We have chosen the following add-ons:" + '\n');
+
+
+
+
+			if(has_photos === "on"){
+				jQuery('#project-details-textarea').append('\n' + meta.addon_photos_details + '\n');
+			}
+			if(has_content === "on"){
+				jQuery('#project-details-textarea').append('\n' + meta.addon_content_details + '\n');
+			}
+
+		}
+	});
+</script>
+
+
+
+
+
+<script>
+	var $_GET = {};
+
+	document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function () {
+		function decode(s) {
+			return decodeURIComponent(s.split("+").join(" "));
+		}
+
+		$_GET[decode(arguments[1])] = decode(arguments[2]);
+	});
+
+
+	var from_url = $_GET['category'];
+
+	jQuery('#category').change( function (){
+		var from_dropdown = jQuery('#category :selected').text().toLowerCase();
+
+		if(from_dropdown === 'marketing' || from_url === 'marketing'){
+			document.getElementById("project-details-textarea").value = "Our company is... We're focused on... \r\nWe're currently looking for a freelancer to... The freelancer would be responsible for...  \r\n\r\nProject deliverables include:\r\n- How many market strategies would you like the freelancer to brainstorm? \r\n- How many campaigns will the freelancer be engaged in? \r\n- What kinds of marketing will the freelancer be doing? \r\n- What marketing tools should the freelancer be using? \r\n- What key message needs to be communicated? \r\n\- How often should the freelancer be posting content? \r\n- What other specifics are you looking for? \r\n\r\nQualifications: \r\n- What degree program would the ideal candidate be enrolled in? \r\n- What major and/or minor? How far along in their degree? \r\n- What marketing tools does the freelancer need to have access to/ be familiar with? \r\n- What skills should the student have? \r\n\r\nOur current branding and campaigns can be viewed here: www.yourwebsite.ca \r\n\r\nWe will provide any login credentials and brand details upon selection. \r\n\r\nThis project will span approximately __ days/weeks/months \r\n\r\nWe are looking to begin this project by ___, 2015." ;
+		}
+		//else if (from_dropdown === 'web development' || from_dropdown === 'websites' || from_url === 'webdev'){
+		//	document.getElementById("project-details-textarea").value = "Our company is... We're focused on... \r\nWe're currently looking for a freelancer to... The freelancer would be responsible for...  \r\n\r\nProject deliverables include:\r\n- What coding languages are needed? \r\n- What plugins need to be installed \r\n- Would you like the student to recommend a number of themes? \r\n- How many pages will your site have? \r\n- Do you need analytic tracking codes implemented? \r\n- Do you need to be taught how to update and change the website upon completion? \r\n- Do you need the student to test and troubleshoot? \r\n- Is the student creating a website or an application? \r\n- Do you need UX and SEO recommendations? \r\n- What other specifics are you looking for? \r\n\r\nQualifications: \r\n- What degree program would the ideal candidate be enrolled or completed? \r\n- What tools and materials does the freelancer need to have access to/be familiar with? \r\n- What skills should the student have? \r\n\r\nOur current web site can be found at: www.yoursite.com \r\n\r\nWe will provide any login credentials and details upon selection. \r\n\r\nThis project will span approximately __ days/weeks/months \r\n\r\nWe are looking to begin this project by ___, 2015." ;
+		//}
+		else if (from_dropdown === 'social media management' || from_url === 'socialmedia'){
+			document.getElementById("project-details-textarea").value = "Our company is... We're focused on... \r\nWe're currently looking for a freelancer to... The freelancer would be responsible for...  \r\n\r\nProject deliverables include:\r\n- How many social media strategies woud you like the freelancer to brainstorm? \r\n- How often should the student post per day/week? \r\n- What platforms do you want the student to use? \r\n- How many followers do you want the freelancer to try to gain? \r\n- What kind of content would you like the student to post? \r\n- What other specifics are you looking for? \r\n\r\nQualifications: \r\n- What degree program would the ideal candidate be enrolled in?\r\n- What major and/or minor? How far along in their degree? \r\n- What social platforms should they have experience using? \r\n- What programs are critical to this project? ex. Hootsuite, Tweetdeck, etc. \r\n- What skills should the freelancer have? \r\n\r\nOur current social media platforms are: \r\nwww.twitter.com/companyname \r\nwww.facebook.com/companyname \r\nwww.linkedin.com/companyname \r\n\ \r\n\r\nWe will provide any login credentials and brand details upon selection. \r\n\r\nThis project will span approximately __ days/weeks/months \r\n\r\nWe are looking to begin this project by ___, 2015." ;
+		}
+		else if (from_dropdown === 'graphic design' || from_url === 'graphicdesign'){
+			document.getElementById("project-details-textarea").value = "Our company is... We're focused on... \r\nWe’re currently looking for a student to create… The freelancer would be responsible for... \r\n\r\nProject deliverables include:\r\n- How many versions of the design would you like to choose from?\r\n- How many design recommendations would you like?\r\n- What values should be reflected in the designs? \r\n- What dimensions should the student create the design in? \r\n- What kind of content would you like the freelancer to post? \r\n- What program should the freelancer create the design in? \r\n- How often would you like to review/ check in with the freelancer’s progress? \r\n- What other specifics are you looking for? \r\n\r\nQualifications: \r\n- What degree program would the ideal candidate be enrolled in? \r\n- What major and/or minor? How far along in their degree? \r\n- What design programs does the freelancer need to have access to/ be proficient in? \r\n- What skills should the freelancer have? \r\n\r\nOur current branding and graphics can be viewed here: \r\nwww.yourwebsite.com   \r\n\ \r\n\r\nWe will provide logos, graphics, and brand details upon selection. \r\n\r\nThis project will span approximately __ days/weeks/months \r\n\r\nWe are looking to begin this project by ___, 2015." ;
+		}
+		else if (from_dropdown === 'multimedia' || from_url === 'multimedia'){
+			document.getElementById("project-details-textarea").value = "Our company is... We're focused on... \r\nWe're currently looking for a freelancer to... The freelancer would be responsible for...  \r\n\r\nProject deliverables include:\r\n- What tools are necessary for the project? \r\n- Where does the project need to be broadcast/visible? \r\n- How many versions of the work would you like to choose from? \r\n- What values should be reflected in the work? \r\n- WHat key message needs to be communicated? \r\n\- What other specifics are you looking for? \r\n\r\nQualifications: \r\n- What degree program would the ideal candidate be enrolled in? \r\n- What major and/or minor? How far along in their degree? \r\n- What media does the freelancer need to have access to/ be familiar with? \r\n- What skills should the student have? \r\n\r\nOur current videos, photography, and commercials can be viewed here: \r\nwww.yourwebsite.ca \r\nwww.youtube.com/yourvideo \r\n\r\nWe will provide any login credentials, sources, and brand details upon selection. \r\n\r\nThis project will span approximately __ days/weeks/months \r\n\r\nWe are looking to begin this project by ___, 2015." ;
+		}
+		else if (from_dropdown === 'writing' || from_url === 'writing'){
+			document.getElementById("project-details-textarea").value = "Our company is... We're focused on... \r\nWe're currently looking for a freelancer to... The freelancer would be responsible for...  \r\n\r\nProject deliverables include:\r\n- What style of writing/voice are you looking for? \r\n- Are you looking for blogs? Copywriting? Creative Wriring? \r\n- How many words or pages of writing do you need the freelancer to do? \r\n- How often does the freelancer need to write content? \r\n- Do you need the freelancer to edit your content? \r\n\- What other specifics are you looking for? \r\n\r\nQualifications: \r\n- What degree program would the ideal candidate be enrolled in? \r\n- What major and/or minor? How far along in their degree? \r\n- What tools and reference materials does the freelancer need to have access to/ be familiar with? \r\n- What skills should the student have? \r\n\r\nOur past content and copy can be found here: \r\nwww.yourwebsite.ca \r\n\r\nWe will provide any login credentials upon selection. \r\n\r\nThis project will span approximately __ days/weeks/months \r\n\r\nWe are looking to begin this project by ___, 2015." ;
+		}
+	});
+
+</script>

@@ -1,0 +1,1080 @@
+/*
+ Theme Name:   HireBee Child Theme
+ Theme URI:    http://www.appthemes.com/themes/hirebee/
+ Description:  HireBee Child Theme
+ Author:       Amanda Haynes
+ Author URI:   http://example.com
+ Template:     hirebee
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         
+ Text Domain:  hirebee-child
+*/
+
+@import url("../hirebee/styles/modern.css");
+@import url("../hirebee/style.css");
+
+.full-width {
+    background-color: #f3f5f9;
+    background: -webkit-gradient(linear, left top, right top, from(#F1F0EE), to(#F1F0EE));
+    background: -webkit-linear-gradient(left, #F1F0EE, #F1F0EE);
+    background: -moz-linear-gradient(left, #F1F0EE, #F1F0EE);
+    background: -ms-linear-gradient(left, #F1F0EE, #F1F0EE);
+    background: -o-linear-gradient(left, #F1F0EE, #F1F0EE);
+}
+
+#sidebar {
+    background-color: #F1F0EE;
+}
+
+#main {
+    background-color: #F1F0EE;
+    box-shadow: 12px -2px 10px -10px #F1F0EE;
+}
+
+.column, .columns {
+    padding-right: 1.5em;
+}
+
+.log-in, .register, .edit-profile, .recover-password, .reset-password{
+    border-right: 1pt solid #EDEFF6;
+}
+
+hr{
+    border-style: none;
+}
+
+a, .plugin .footer #branding a span.plugin_title{
+	color: #EF5A32 ;
+    outline: 0;
+}
+
+a:hover{
+    color: #EF5A32;
+}
+
+a:hover, a:focus {
+    color: #EF5A32;
+}
+
+.icon, .project-date i, .dashboard:not(.dashboard-agreement) .section-primary-info i, 
+.dashboard .project-notifications i, .projects-section i, .dashboard > h2 i, .button .i-view, i.fave-icon, 
+.work-user-meta > :not(.user-meta-info) i, .freelancer-loc i  {
+    color: #27B7C0;
+}
+
+.single-by-widget-meta a{
+    color: #EF5A32;
+}
+
+
+input[type="text"], input[type="password"], input[type="date"], 
+input[type="datetime"], input[type="datetime-local"], input[type="month"], 
+input[type="week"], input[type="email"], input[type="number"], 
+input[type="search"], input[type="tel"], input[type="time"], 
+input[type="url"], textarea
+    background-color: #F1F0EE
+
+}
+
+.top-navigation {
+    border-top: 1px solid #DAD5D1;
+    border-bottom: 1px solid #DAD5D1;
+}
+
+.top-navigation li:last-child a:last-child:not(.button) {
+    border-right: 1px solid #DAD5D1;
+    border-left: 1px solid #DAD5D1;
+}
+
+.top-navigation li a:not(.button) {
+    border-left: 1px solid #DAD5D1;
+   }
+
+.log-in .register-box {
+    background-color: #79716E;
+   
+}
+
+.log-in .register-box .button {
+    background-color: #27B7C0;
+}
+
+.log-in .register-box .button:hover {
+    background-color: #27B4BC;
+}
+
+.form-wrapper .log-in{
+     padding-right: 10px;
+}
+
+.home ul.pagination li a{
+    background-color: #27B7C0;
+}
+
+.home ul.pagination li a:hover{
+    background-color: #27B4BC;
+}
+
+ul.pagination li.current a {
+    background-color: #EF5A32;
+}
+
+/*************************************
+********** Buttons and Header ********
+**************************************/
+.splash-example {
+    background-image: none;
+}
+
+.top-widgets{
+    background-image: url("images/hero.jpg");
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: 1085px;
+    background-position: right; 
+}
+
+.top-widgets h4{
+    color: #3D3630 !important;
+    font-size: 3em !important;
+}
+
+
+
+
+.top-navigation .top-bar .toggle-topbar a span {
+    box-shadow: 0px 10px 0px 1px #27B7C0, 0px 16px 0px 1px #27B7C0, 0px 22px 0px 1px #27B7C0;
+}
+
+
+.top-bar-section .inbox{
+	background-color: #27B7C0;
+}
+
+.button{
+    background-color: #EF5A32;
+}
+
+.button:hover{
+    background-color: white;
+    color: #EF5A32;
+    border: 1pt solid #EF5A32;
+}
+
+.search-button button, #drop-projects-filter, #drop-freelancers-filter, 
+form input.button[type="submit"]:hover:not(.secondary):not(:disabled), 
+.create-project .files .button, .search-button button, .sidebar-archive .section-head input[type="submit"]{
+    background-color: #ADA097;
+    color: white;
+}
+
+.search-button:hover button, #drop-projects-filter:hover, #drop-freelancers-filter:hover, 
+.create-project .files .button:hover, form input[type="submit"], .sidebar-archive .section-head input[type="submit"]:hover{
+    background-color: #574C46;
+    border: none;
+    color: white;
+}
+
+.create-project form.custom .selector, .order-checkout form.custom .selector, 
+.dashboard-workspace form.custom .selector, edit-profile form.custom .selector, 
+#load-saved-filter-form .selector, .create-project .budget-currency .custom.dropdown a, 
+.create-project .location-type .custom.dropdown a, .create-project .selected-currency, 
+.single-project .bid .button, .project-terms, .proposal-terms{
+    background-color: #ADA097;
+}
+
+
+
+span.error, small.error{
+    background: none repeat scroll 0% 0% #27B7C0
+}
+
+input.error, textarea.error{
+        background-color: #EDE6E1;
+        border-color: #27B7C0;
+
+}
+
+/* HERO BUTTONS */
+a.large:nth-child(1):hover{
+    border: 1pt solid;
+}
+
+a.large:nth-child(2){
+    background-color: #27B7C0;
+}
+
+a.large:nth-child(2):hover{
+        background-color: white;
+        color:#27B7C0;
+        border: 1pt solid #27B7C0;
+}
+
+
+
+
+.top-bar .lower-top-bar{
+	background-color: #574C49
+}
+
+.main-navigation, .lower-top-bar, .main-navigation .top-bar.expanded .title-area {
+	background-color: #574C46;
+}
+
+#navigation{
+	background-color: #574C46;
+}
+
+.menu-item:hover{
+	background-color: #574C46;
+}
+
+.menu-footer-container > ul >li:hover{
+    background-color: #2C2723;
+}
+
+.lower-top-bar li a {
+    border-right: 1px solid #EF5A32;
+}
+
+.full-width .content-header {
+    background-color: #EF5A32;
+}
+
+.lower-top-bar li a:not(.button){
+    background: none repeat scroll 0% 0% #574C46;
+}
+
+
+.widget_create_project_button .button {
+    background-color: #EF5A32;
+}
+
+.widget_create_project_button .button:hover{
+    background-color: #27B7C0;
+    color: white;
+}
+
+article.post a, article.page a, article.fourzerofour a {
+    color: #EF5A32;
+}
+
+
+form.custom .custom.dropdown {
+	background-color: 
+}
+
+q{
+    background-image: url("images/"), url("images/.png")
+}
+
+/*****************************
+****** Footer Styling ********
+******************************/
+
+.widgets-footer{
+	border-bottom: 1pt solid #79716E;
+}
+
+.widgets-footer .widget{
+	border-right: 1pt solid #79716E;
+}
+
+.footer, .widgets-footer,  #footer, #footer a{
+	background-color: #2C2723;
+	color: #79716E;
+}
+
+#menu-header li, #menu-header li a:hover {
+   background-color: #2C2723;
+    color: #79716E;
+
+}
+
+.widgets-footer .section-head h3 {
+    border-bottom: 1px solid #79716E;
+}
+
+#posts .pagination .current, #posts .pagination .current:hover {
+    background-color: #79716E;
+    color: #EF5A32;
+}
+
+.post-date-box .box-comment-link {
+    border-top: 1px solid #ADA097;
+    background-color: #79716E;
+}
+.post-date-box {
+	   background-color: #79716E;
+}
+
+.lower-top-bar li a:hover { 
+	background-color: #79716E !important; 
+}
+
+
+.sidebar-archive h4 {
+    background-color: #8E8076;
+    color: white;
+}
+
+.alert-box.success {
+    background-color: #27B7C0;
+    border: 1px solid #FFF;
+}
+
+
+.plan h3{
+background-color: #27B7C0;
+
+}
+
+.create-project .important-note, .order-summary form.custom p:last-child{
+    color: #27B7C0;
+    background-color: white;
+}
+
+blockquote {
+    border-left: 7px solid #EF5A32;
+    background-color: #F4F3F1;
+}
+
+
+
+.item_header_wrapper .list_item_number {
+    background-color: #F15C32 !important;
+}
+
+
+
+.proposal-meta .average{
+
+    background-color: #27B7C0;
+}
+
+.proposal-meta .budget {
+    background-color: #7C6E64;
+}
+
+.proposal-meta .total{
+    background-color: #EF5A32;
+}
+
+.proposal legend.project-title {
+    background-color: #8E8076;
+}
+
+/*************************************
+********** Project styling ***********
+**************************************/
+.freelancer-loc{
+    border: none;
+}
+
+#projects {
+    border-bottom: none;
+}
+
+#projects .project, #freelancers .freelancer {
+    box-shadow: none;
+    border-left: 1pt solid #D9D2CC;
+    border-bottom: 1pt solid #D9D2CC;
+    border-right: 1pt solid #D9D2CC;
+    border-top:none;
+}
+
+ .project > h2 {
+    background-color: #8E8076;
+}
+
+#projects h2:hover {
+    background-color: #8E8076;
+}
+
+ol.progtrckr li.progtrckr-done, ol.progtrckr li.progtrckr-todo {
+    color: #EF5A32;
+    border-top: 4px solid #92CF6D;
+    border-bottom: 4px solid #DEE5EE;
+}
+
+
+ol.progtrckr li.progtrckr-done, ol.progtrckr li.progtrckr-todo {
+    color: #EF5A32;
+    border-top: 4px solid #79716E;
+    border-bottom: 4px solid #79716E;
+}
+
+ol.progtrckr li.progtrckr-done:before{
+	background-color: #EF5A32;
+}
+
+ol.progtrckr li.progtrckr-todo:before{
+	color: #EF5A32;
+}
+
+.create-project  .section-head h1{
+	background-color: #8E8076;
+}
+
+
+
+.project > h2 a {
+    color: #FFFFFF;
+}
+
+a.project-author{
+	color: #EF5A32;
+}
+
+.projects-section .project-title-row div:hover{
+    background-color: #F1F0EE;
+}
+
+a.project-description, a.project-description:hover {
+    color: #81BA53;
+}
+
+
+
+.featured .project-budget-wrapper, .project-budget-wrapper {
+    border-color: white;
+}
+
+.project-num-proposals{
+    border-left: none;
+    border-right: none;
+}
+
+
+.project-location, .project-cat, .featured .project-location, .featured .project-cat {
+    border-right: 1px solid #D9D2CC;
+    border-bottom: 1pt solid #D9D2CC;
+    
+}
+
+.budget-deadline .project-expires {
+    background-color: #27B7C0;
+}
+
+.featured .project-description {
+    border-top: none;
+}
+
+.budget-deadline .project-expires .days-left {
+    background-color: #8BE8ED;
+}
+
+
+.credits-info .prefix{
+    background-color: #F28F76;
+    color: white;
+}
+
+.credits-info a {
+    color: white;
+}
+
+.credits-info a:hover {
+    color: #27B7C0;
+}
+
+.credits-info .credits-balance, .credits-info .credits-required{
+    background-color: #EF5A32;
+}
+
+.budget-deadline .project-budget {
+    background-color: #F28F76;
+}
+
+.budget-deadline .project-budget .budget-type {
+    background-color: #EF5A32;
+}
+
+.add-ons [class^="featured"] {
+    background: url("images/featured-yellow-bg.png") no-repeat scroll 0px 0px transparent;
+    right: 80px;
+}
+ 
+
+.category-row .maincat-list > li > a:hover {
+    background-color: white;
+}
+
+
+.add-ons .urgent {
+	background: url("images/featured-orange-bg.png") no-repeat scroll 0px 0px 
+}
+
+.add-ons [class^="featured"] {
+    background: url("images/featured-teal-bg.png") no-repeat scroll 0px 0px transparent;
+}
+
+
+/* Individual project styling */
+
+
+.single-project .single-project-header{
+	background-color: #7C6E64;
+}
+
+.single-project .single-project-header:after {
+    border-top: 8px solid #7C6E64;
+}
+
+
+.button.secondary {
+    background-color: #DAD5D1;
+}
+
+.button.secondary:hover {
+    background-color: #AEA199;
+}
+
+.section-container.section-tabs > section.active > .title a {
+    color: #FFF;
+    background-color: #AEA199;
+}
+
+.project-description {
+    border-left: 1px solid #D9D2CC;
+    border-top: 1px solid #D9D2CC;
+}
+
+.project-author-meta{
+    border-left: 1px solid #D9D2CC;
+    border-right: none;
+}
+
+
+.featured .project-cat a, .featured .project-meta-below-desc, 
+.project-cat a, .project-meta-below-desc {
+    background-color: #FFFFFF;
+    color: #8E8076;
+    border-color: #D9D2CC;
+    border-bottom:none;
+}
+
+
+.featured .project-num-proposals{
+
+    border-left: 1pt solid #D9D2CC;
+}
+
+
+
+.featured .project-meta-below-desc i, .featured .project-meta-below-desc, .project-meta-below-desc i, 
+.featured .project-meta-below-desc a{
+    color: #8E8076;
+}
+
+
+.featured .project-skills .label:after, .project-skills .label:after {
+    border-left-color: #8E8076;
+}
+
+.featured .project-description{
+    color: #8E8076;
+}
+
+.featured .project-description{
+    color: #8E8076;
+    border-color: #FFFFFF;
+}
+
+.featured .project-author-meta{
+    border-color: #8E8076;
+    color: #8E8076;
+}
+
+.featured .project-meta:before{
+    border-bottom: 8px solid #FFFFFF;
+}
+
+.featured .project-author-meta, .featured .project-description {
+    background-color: #ffffff;
+    border-color: #D9D2CC;
+}
+
+.featured .cf{
+    background-color: #FFFFFF;
+ }
+
+.project-skills .label, .user-skills .label, .bidder-skills .label{
+    background-color: #8E8076;
+    color: white;
+}
+
+.bidder-skills .label::after{
+    border-color:   rgba(230, 232, 234, 0) rgba(230, 232, 234, 0) rgba(230, 232, 234, 0) #8E8076;
+}
+
+.project-skills .label:hover{
+    background-color: #8E8076;
+    color: white;
+}
+
+.project-description a:hover, a:focus {
+    color: #EF5A32;
+}
+
+.attachment-30x30 {
+    padding-right: 2px;
+}
+/* Sidebar */
+
+.widget h3, #sidebar .widget-recent-posts .project h4 a, 
+.post-date, .widget-recent-posts .recent-box-excerpt, .widget-recent-posts .project-location{
+    color: #574C46;
+}
+
+ #sidebar .project-meta-below-desc i{
+    color: #574C46;
+}
+
+
+.sidebar-archive #refine-categories > ul > li > label.selectit{
+    color: #574C46;
+}
+
+span.label{
+    background-color: #27B7C0;
+} 
+
+ .sidebar-archive .selectit, .sidebar-archive #refine-categories > ul > li > label.selectit, 
+ .sidebar-archive #refine-skills > ul > li > label.selectit, 
+ .sidebar-archive #refine-location > ul > label{
+    color: #574C46;
+ }
+
+ .sidebar-archive .parent{
+    border-left: 1pt solid #D9D2CC;
+    border-bottom: 1pt solid #D9D2CC;
+    border-right: 1pt solid #D9D2CC;
+ }
+
+
+/********************************
+**** Freelancer styling *********
+********************************/
+i.icon.i-review-symbol{
+    color: white;
+}
+
+.freelancer-description, .freelancer-meta .freelancer-rate, .freelancer-meta .freelancer-success{
+    color: #564B46;
+}
+
+.freelancers-header .article-title h3 {
+    background-color: #27B7C0;
+}
+.freelancer h2.freelancer-header a{
+    color: #574C46;
+}
+
+.freelancers-header .article-title h3:before, .freelancers-header .article-title h3:after {
+    border-color: #27B7C0;
+}
+
+.freelancers-header .article-title h3:before {
+    border-left-color: transparent;
+}
+
+.freelancers-header .article-title h3:after {
+    border-right-color: transparent;
+}
+
+.freelancer-meta a , .freelancer-meta span{
+	color: #27B7C0;
+}
+
+.freelancer-meta{
+    border-top: 1px solid #D9D2CC;
+    border-bottom: 1px solid #D9D2CC;
+}
+
+.freelancer-meta .freelancer-success {
+    border-left: 1px solid #D9D2CC;
+    border-right: 1px solid #D9D2CC;
+}
+
+.user-skills {
+    border-top: 1px solid #D9D2CC;
+}
+
+
+
+.user-skills {
+    background-color: #FFFFFF;
+}
+
+.user-skills .label{
+    background-color: #8E8076;
+}
+
+.user-skills .label:after{
+    border-left-color: #8E8076;
+}
+
+.freelancer .review-meta{
+    background-color: #EF5A32;
+}
+/********************************
+******* Admin Dashboard *********
+********************************/
+
+
+.sidebar-archive .section-head{
+    border: 1px solid #D9D2CC;
+}
+
+.sidebar-widget-wrap > h3{
+	background-color: #27B7C0;
+}
+
+
+#dashboard-side-nav .section-head, #dashboard-acct-stats .section-head, #dashboard-acct-info .section-head {
+	background-color: #7C6E64;
+}
+
+ .dashboard > h2 {
+    color: #7C6E64;
+}
+
+
+.dashboard table thead > tr {
+	background-color: #27B7C0;
+}
+
+.dashboard-front .entry{
+    color: #574C46;
+}
+
+.dashboard-front .entry small {
+    color: #7C6E64;
+}
+
+.alert-box, .alert-box.error  {
+    background-color: #27B7C0;
+}
+
+
+.comment-author .fn {
+    font-style: normal;
+    color: #EF5A32;
+}
+
+.section-container.section-tabs > section.active > .title a:after {
+    border-top: 8px solid #EF5A32;
+}
+
+.section-container.section-tabs .active p.title {
+    background: none repeat scroll 0% 0% #EF5A32;
+}
+
+.comment-form .logged-in-as a {
+    color: #FFF;
+    background-color: #EF5A32;
+}
+
+.comment-form .logged-in-as a:nth-of-type(2) {
+    background-color: #7C6E64;
+}
+
+.comment-form .logged-in-as a:nth-of-type(2):hover {
+    background-color: #7C6E64;
+}
+
+
+.dashboard input[name="bulk_delete"], .dashboard input[name="bulk_delete"]:hover , .dashboard-user-meta .edit-profile:hover  {
+    background-color: #EF5A32;
+}
+
+.dashboard-links .current, .dashboard-links li:hover, .dashboard-side ul li span, .dashboard-user-meta .edit-profile {
+    background-color: #DAD5D1;
+}
+
+/* PAGINATION */
+ul.pagination li a, ul.pagination li.current a  {
+    background-color: #27B7C0;
+}
+
+ul.pagination li a:hover, ul.pagination li.current a:hover{
+    background-color: #DAD5D1;
+}
+
+/********************************
+********** Dashboard*************
+*********************************/
+
+.agreement .section-primary-info{
+    background-color: #27B7C0;
+}
+
+.dashboard .project-status.terms,  .dashboard .work-status.waiting, 
+.order-checkout .section-head h1, .dashboard .order-status.tr_pending, #pass-strength-result, 
+.dashboard .proposal-status.selected, .dashboard .proposal-status.accepted{
+    background-color: #EF5A32;
+}
+
+.agreement .candidate-decision.propose, .agreement .employer-decision.propose, 
+.agreement .candidate-decision.accepted, .agreement .employer-decision.accepted  {
+    background-color: #27B7C0;
+}
+
+.dashboard .project-title-row, .dashboard .project-title-row:hover, 
+.dashboard .order h2, .dashboard .order h2:hover, div.row.order-title-row, div.row.order-title-row:hover{
+    background-color: #F1F0EE;
+}
+
+.dashboard .listing h2:hover {
+    background-color: #F1F0EE !important;
+}
+
+.dashboard-workspace .single-project-title, .proposal legend.project-title{
+    background-color: #AEA199;
+}
+
+.dashboard table thead {
+    background-color: #27B7C0;
+}
+
+
+.dashboard .notification-message a[href*="review_proposal"],
+.dashboard table a[href*="review_proposal"]:not(.button){
+    color: #27B7C0;
+}
+
+.agreement .candidate-decision.accepted, .dashboard .project-status.waiting_funds, 
+.edit-profile form.custom .selector, .dashboard .project-status.working, 
+.dashboard .dispute-status.disputer.dispute_paid, .dashboard .dispute-status:not(.disputer).dispute_refunded, 
+.reviews .project-status.closed_complete, .dashboard-workspace .review-user input.button[type="submit"], 
+.dashboard .work-status.working {
+    background-color: #EF5A32;
+}
+
+.order-checkout .section-head h1, .agreement .section-head h1,
+.dashboard .work-status.completed, .dashboard .project-status.closed_complete {
+    background-color: #27B7C0 ;
+}
+
+.dashboard .notification-message a, .dashboard table a {
+    color: #EF5A32;
+}
+
+.single-bid .bid-terms {
+    background-color: #7C6E64;
+}
+
+.single-bid .bid-terms::before {
+    border-left: 8px solid #7C6E64;
+}
+
+.bid .proposal-amount{
+    background-color: #F28F76;
+}
+
+.bid .proposal-delivery {
+    background-color: #EF5A32;
+}
+
+.bid-terms .submit-time span{
+    background-color: #8BE8ED;
+}
+
+.bid-terms .submit-time .proposal-posted-time{
+    background-color: #27B7C0;
+}
+
+.bidder-display-name a, .user-header-meta i, .user-meta-info a {
+    color:  #27B7C0;
+}
+
+.dashboard-projects .projects-actions .button, .dashboard-projects .workspace-actions .button{
+    background-color: #DAD5D1;
+    border-color: #DAD5D1;
+    color: #5C5C5C;
+}
+
+.dashboard-payments .order-status{
+    background-color: #EF5A32;
+}
+
+.dashboard .work-status.waiting, .dashboard .project-status.waiting_funds{
+    background-color: #DAD5D1;
+}
+
+
+
+/***** Social Login *****/
+
+.oneall_social_login{
+    padding-top: 10px;
+}
+
+
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+
+/* HOW IT WORKS */
+
+article.post, article.page, article.fourzerofour{
+    background-color: #F1F0EE;
+}
+
+
+.overview p{
+    font-size: 1em;
+    color: #574C46;
+}
+
+.overview h3{
+    color: #27B7C0;
+    font-size: 1.25em;
+}
+
+.overview ul{
+    padding-left: 2em;
+    color: #574C46;
+}
+
+.questions h4{
+    padding: 0em 0 1em 0;
+}
+
+/* FAQ */
+
+.faq h3{
+    color: #27B7C0;
+    font-size: 2em;
+    border-bottom: 2pt solid #27B7C0;
+}
+
+.faq h2{
+    font-size: 1.5em;
+}
+
+.faq p{
+    font-size: 1em;
+    color: #574C46;
+}
+
+#main-nav .left{
+    float:none;
+}
+
+
+h2#q-header{
+    color:#27B7C0;
+}
+
+.accordion-q{
+    color:#574C46;
+    font-size: 1.25em;
+    outline: 0;
+}
+
+#faq-accordion{
+    padding-top: 2em;
+}
+
+.accordion-q[aria-expanded="true"]{
+    color: #27B7C0;
+}
+
+.accordion-q[aria-selected="false"]{
+    color: #574C46;
+}
+
+.ui-accordion-content > p{
+    font-weight:200;
+}
+
+.accordion-a>ul {
+    padding-left: 1em;
+}
+
+.ui-accordion-content > ul > li{
+    font-weight: 200;
+    margin-left: 1.5em;
+    list-style-type: circle;
+}
+
+h3#contact{
+   padding-left: 1em;
+}
+
+
+/* FORMS */
+
+.ninja-forms-cont{
+    padding-top: 3em;
+    padding-left: 5em;
+    width:55%;
+}
+
+#ninja_forms_form_1_all_fields_wrap > div.ninja-forms-required-items{
+    padding-bottom: 1em;
+}
+
+#ninja_forms_field_1, #ninja_forms_field_2{
+    width: 80%;
+}
+
+#ninja_forms_field_1_div_wrap{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ninja_forms_field_4_label{
+    padding-bottom: 1em;
+}
+
+#ninja_forms_field_5{
+    background-color: #27B7C0;
+}
+
+#ninja_forms_field_5:hover{
+    background-color: white;
+    border: 1pt solid #27B7C0;
+    color: #27B7C0;
+}
+
+
+#ninja_forms_form_1_response_msg > div:nth-child(1) > p:nth-child(1) {
+    background-color: #27B7C0;
+    padding-left: 1em;
+    color: white;
+}
+
+.plugin .footer #branding a span.plugin_title {
+    color: #27B7C0;
+}
+
+
+
+/*********************
+** PURCHASE CREDITS*** 
+*********************/
+
+.panel, .panel p, .panel h3{
+    color:#574C46;
+}
+
+#ul_purchase_credits{
+    padding-left: 1.5em;
+}

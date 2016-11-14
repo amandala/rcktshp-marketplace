@@ -1,0 +1,17 @@
+<div id="topNav" class="large-10 columns">
+                    <nav class="top-bar">
+                        <ul class="title-area">
+                            <!-- Title Area -->
+                             <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+                        </ul>
+                            <?php wp_nav_menu( array( 'theme_location' => 'top', 'sort_column' => 'menu_order', 'container' => 'menu-header', 'fallback_cb' => 'default_top_nav' ) ); ?>
+                        <div id="user-nav">
+                            <?php the_nw_user_nav_links(); ?>
+
+                        </div>
+                    </nav>
+                </div>\\
+
+
+
+                .top-navigation .top-bar.expanded .toggle-topbar a span

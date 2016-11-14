@@ -1,0 +1,4 @@
+
+https://instagram.com/oauth/authorize/?client_id=96b18185b7bd43edb53a7c2c59c7a394&redirect_uri=http://localhost&response_type=token
+
+http://localhost/#access_token=13475079.96b1818.47be6e640b304b41bd15a7bb703e6edd

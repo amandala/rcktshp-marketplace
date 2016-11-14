@@ -1,0 +1,14 @@
+Modified		changelog.txt
+Modified		edit-profile.php
+Modified		framework
+Modified		functions.php
+Modified		hirebee.pot
+Modified		includes/admin/install.php
+Modified		includes/admin/project-single.php
+Modified		includes/admin/settings.php
+Modified		includes/credits.php
+Modified		includes/payments
+Modified		includes/projects.php
+Modified		includes/widgets
+Modified		style.css
+Modified		theme-framework

@@ -1,0 +1,309 @@
+
+/* style rules for the RCKTSHP How it Works page */
+
+.hw-banner-greeeting-wrapper {
+    text-align: center;
+    position: relative;
+    top: 11rem;
+}
+
+h3#hw-banner-greeting{
+    margin: 0;
+    color: white;
+    font-family: 'Roboto Slab';
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+div#how-works-header{
+    background-image: url("../images/how-works/Banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover ;
+    height: 400px;
+}
+
+.orange-bar{
+    background-color: #f25926;
+    height: 100px;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+ul#how-works-tabs {
+    position: relative;
+    top: 20.35rem;
+    border-left: none;
+}
+
+li.how-works-tab {
+    background-color: #b4b4b4 !important;
+}
+
+.how-works-tab.current {
+    background-color: #f25926 !important;
+}
+
+h2.how-works-tab-link {
+    font-size: 1rem;
+    color: white !important;
+    font-weight: 400;
+    padding: .1rem .5rem;
+}
+
+li#how-works-employer, li#how-works-freelancer {
+    border: none;
+}
+
+h3.hw-header {
+    margin-top: 0;
+    color: white;
+    font-weight: 200;
+}
+
+h3.hw-header.black{
+    color: black;
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+    padding: 3rem 0rem;
+}
+
+#how-works-freelancer-section > div.hw-student-onboard.row > div > h3{
+    padding-top: 0;
+}
+
+
+h2.hw-heading-orange{
+    color: #f25926;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-top: 1.5rem;
+}
+p.hw-step{
+    font-size: 1.25rem;
+}
+
+p.hw-step.left{
+    text-align: left;
+}
+
+ol.hw-list {
+    font-size: 1.25rem;
+    margin-left: 2rem;
+}
+
+div.hw-videos{
+    text-align: center;
+}
+
+div.hw-free-step, div.hw-student-onboard, div.hw-student-help{
+    text-align: center;
+}
+
+.grey-back.hw-bar {
+    height: 125px;
+    position: relative;
+    bottom: 5rem;
+    z-index: -1;
+}
+
+div.grey-back.hw-bar + div.hw-free-step.row > h3.hw-header.black {
+    padding-top: 0;
+}
+
+div#hw-student-banner{
+    background-image: url("../images/how-works/hw-student-banner.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain ;
+    height: 500px;
+}
+
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #27b7c0;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 1.15rem;
+
+}
+
+div.large-4.columns.help-tile-container{
+    height: 300px;
+    border: 10px solid white;
+    padding: 0;
+}
+
+div.help-tile-image{
+    background-image: url("../images/how-works/hw-student-banner.png");
+    background-repeat: no-repeat;
+    background-position: cover;
+    height: 200px;
+}
+
+div.teal-bar{
+    background-color: #27b7c0;
+    color: white;
+    font-size: 1.15rem;
+    line-height: 1.5rem;
+    padding: 0rem 1rem 1rem;
+
+
+}
+
+.row.hw-browse-link {
+    padding: .5rem;
+    text-align: right;
+    padding-bottom: 2rem;
+}
+
+ @media (max-width: 908px){
+     h2.how-works-tab-link{
+         padding: 0.1rem;
+     }
+ }
+
+.hw-student-onboard.row {
+    padding-bottom: 3rem;
+}
+
+.hw-emp-steps-wrapper {
+    padding:3rem 0rem;
+}
+
+
+img.hw-icons {
+    padding: 1rem;
+    width: 100px
+}
+
+div#hw-icons-wrapper {
+    display: inline-flex;
+    text-align: center;
+}
+
+.icon-wrapper {
+    width: 14.25%;
+    height: 100px;
+    display: inline;
+    padding: 1rem;
+}
+
+.icon-wrapper-free {
+    width: 16.66%;
+    padding: 1rem;
+}
+
+div.icon-wrapper > a {
+    width: 100px;
+    margin: 0 !important;
+}
+
+div.icon-wrapper > h4, div.icon-wrapper-free > h4 {
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+}
+
+div#hw-emp-icons {
+    height: 200px;
+}
+
+
+/*  videos */
+
+.hw-video-info {
+    text-align: left;
+}
+
+
+div.hw-video-info > h3 {
+    color: #f25926;
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding-top: 1rem;
+}
+
+.hw-videos {
+    padding: 0rem 0rem 3rem 0rem;
+}
+
+.hw-video-button {
+    text-align: right;
+}
+
+@media (max-width: 600px) {
+    h2.hw-heading-orange{
+        font-size: 1.25rem;
+    }
+
+    p.hw-step, ol.hw-list {
+        font-size: 1rem;
+    }
+
+    .hw-emp-steps-wrapper{
+        padding: 1rem;
+    }
+
+    .grey-back.hw-bar {
+        display: none;
+    }
+
+    h3.hw-header.black {
+        font-size: 1.5rem;
+    }
+
+    p.hw-step.left {
+        padding-top: 1rem;
+    }
+
+    div#hw-student-banner{
+        height: 200px;
+    }
+
+    .hw-videos.large-10.push-1 {
+        padding: 1rem;
+    }
+
+    h3.hw-header.black {
+        padding: 1rem;
+    }
+
+    div#hw-icons-wrapper {
+        display: none;
+    }
+
+    div#hw-emp-icons{
+        background-image: url('../images/how-works/Icons_Mobile_Employer.png');
+        background-position: center;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 1rem 2rem;
+    }
+
+    div#hw-emp-icons.freelancer{
+        background-image: url('../images/how-works/Icons_Mobile_Student.png');
+        background-position: center;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 1rem;
+    }
+
+}
+
+@media (max-width: 350px){
+    h2.how-works-tab-link{
+        font-size: .80rem;
+    }
+
+    li#how-works-employer, li#how-works-freelancer{
+        position: relative;
+        top: .4rem !important;
+    }
+}

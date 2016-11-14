@@ -1,0 +1,88 @@
+# Copyright (C) 2013 AppThemes Updater
+# This file is distributed under the same license as the AppThemes Updater package.
+msgid ""
+msgstr ""
+"Project-Id-Version: AppThemes Updater 1.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-27 10:41+0100\n"
+"PO-Revision-Date: 2013-10-27 10:42+0100\n"
+"Last-Translator: AppThemes\n"
+"Language-Team: AppThemes\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_nx:1,2;_x:1,2c;_ex:1,2c;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:1,2,3c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: updater-class.php:240
+#, php-format
+msgid ""
+"<strong>IMPORTANT</strong>: If you have made any modifications to the "
+"AppThemes files, they will be overwritten if you proceed with the automatic "
+"update. Those with modified theme files should do a manual update instead. "
+"Visit your <a href=\"%1$s\" target=\"_blank\">customer dashboard</a> to "
+"download the latest version."
+msgstr ""
+
+#: updater-ui.php:17
+msgid "Saved Changes."
+msgstr ""
+
+#: updater-ui.php:69 updater-ui.php:97
+msgid "AppThemes Updater Configuration"
+msgstr ""
+
+#: updater-ui.php:70 updater-ui.php:98
+msgid "AppThemes Updater"
+msgstr ""
+
+#: templates/admin-page.php:3
+msgid "AppThemes API Key"
+msgstr ""
+
+#: templates/admin-page.php:6
+#, php-format
+msgid "Copy the key found at %1$s and paste it in the field below:"
+msgstr ""
+
+#: templates/admin-page.php:13
+msgid "Save"
+msgstr ""
+
+#: templates/api-key-notice.php:2
+msgid "The AppThemes Updater is almost ready."
+msgstr ""
+
+#: templates/api-key-notice.php:3
+#, php-format
+msgid ""
+"You must <a href=\"%1$s\">enter your AppThemes API key</a> for it to work."
+msgstr ""
+
+#: templates/check-for-updates.php:1
+msgid "Check for updates now"
+msgstr ""
+
+#. #-#-#-#-#  appthemes-updater.pot (AppThemes Updater 1.3)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+msgid "AppThemes Updater"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Allows customers to automatically update AppThemes Products."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "AppThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://appthemes.com"
+msgstr ""

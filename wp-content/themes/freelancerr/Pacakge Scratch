@@ -1,0 +1,138 @@
+<?php if($came_from_builder){
+			?>
+
+
+
+		<fieldset id='project-package' class="package-fieldset">
+			$package_meta['includes']
+
+			<label><?php _e( 'What do you need?', APP_TD ); ?></label>
+
+			<div class="row">
+
+
+				<?php
+					//for a given post type, return all
+					$post_type = 'packages';
+					$tax = 'package_category';
+					$tax_terms = get_terms($tax);
+					if ($tax_terms) {
+				?>
+				<div id="package-select">
+
+					<?php
+
+					foreach ($tax_terms  as $tax_term) {
+					?>
+					<div class="package-options" id="package-options-<?php echo $tax_term->slug; ?>">
+						<ul>
+					<?php
+						$args=array(
+							'post_type' => $post_type,
+							"$tax" => $tax_term->slug,
+							'post_status' => 'publish',
+							'orderby' => 'meta_value_num',
+							'meta_key'  => 'price',
+							'order'     => 'ASC',
+							'posts_per_page' => -1,
+							'caller_get_posts'=> 1
+						);
+
+						$my_query = null;
+						$my_query = new WP_Query($args);
+
+						while ( $my_query->have_posts() ) : $my_query->the_post();
+							$meta = get_post_meta($post->ID);
+							$content =  get_post_field('post_content', $post->ID);
+
+
+							?>
+
+							<li class="package-op">
+								<input type='radio' value='<?php echo $meta['price'][0]?>' name='package-type'  id='<?php echo $post->post_name ?>'/>
+								<label for='package-type'><span><?php echo ucfirst($title) ?></span> <?php echo $content ?> for $<?php echo $meta['price'][0]?></label>
+							</li>
+							<?php
+
+
+						endwhile;
+						?>
+							<li class="package-op">
+								<input type="radio" value="750" name="package-type" id="custom">
+								<label for='custom'><span>Custom <?php echo $tax_term->name ?></span> name your price:</label>
+								<input type="number" min="0" name="package-type" id="custom-price-<?php echo $tax_term->slug; ?>" class="custom-price-input" placeholder="ex. 1000">
+							</li>
+						</ul>
+					</div>
+						<?php
+						wp_reset_query();
+					}
+				}
+				?>
+				</div>
+
+
+			</div> <!-- end row -->
+
+			<div class="package-info">
+				<label class="package-name"><?php _e( $package->post_title, APP_TD ); ?></label>
+			</div>
+			<div class="package-info">
+				<label><?php _e( 'Includes', APP_TD ); ?></label>
+				<ul>
+					<?php
+					foreach($package_meta['includes'] as $include){
+						echo "<li>";
+						echo $include;
+						echo "</li>";
+					}
+					?>
+				</ul>
+			</div>
+		</fieldset>
+	<?php
+	}
+	?>
+
+
+
+<?php if($came_from_builder){?><b>Package Includes</b><br /><?php foreach ($includes as $i){ echo $i . '<br />';} echo '<br /><br /><b>Project Details</b><br />'; }?>
+
+
+
+jQuery('[id^=addon_]').change( function (){
+            var id = jQuery(this).attr('id');
+            var addon = id.split("_")[1];
+            var package = id.split("_")[2];
+
+            if(jQuery('#addon_'+addon+'_'+ package).is(":checked") ){
+
+                var price = jQuery('#price_'+package).text().replace(/\D/g,'');
+                var newPrice = parseInt(price, 10) + 100;
+                jQuery('#price_'+package).text( '$' + newPrice );
+                jQuery('input[id=pack_price]').val( parseInt(newPrice) );
+            }
+            else{
+                var price = jQuery('#price_'+package).text().replace(/\D/g,'');
+                var newPrice = parseInt(price, 10) - 100;
+                jQuery( '#price_'+package ).text( '$' + newPrice );
+                jQuery('input[id=pack_price]').val( parseInt(newPrice) );
+            }
+        })
+
+
+
+
+
+////
+
+jQuery('#category').val(category_code).change();
+
+var checkExist = setInterval(function() {
+			if (jQuery('#app_requirements').length) {
+				console.log("Exists!");
+				clearInterval(checkExist);
+				jQuery('#app_requirements').val(package_content);
+			}
+		}, 100); // check every 100ms
+

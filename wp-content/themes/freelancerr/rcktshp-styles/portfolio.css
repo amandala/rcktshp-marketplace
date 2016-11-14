@@ -1,0 +1,77 @@
+
+
+div#portfolio-rcktshp-believes {
+    background-color: #27B7C0;
+    color: white;
+    padding: 2rem;
+    font-family: 'Roboto';
+}
+
+div#portfolio-rcktshp-believes > h2 {
+    color: white;
+    font-weight: 400;
+}
+
+.portfolio-entry {
+    border: 2px solid #f0f0f0;
+}
+
+img.attachment-200.wp-post-image {
+    width: 100%;
+}
+
+span.portfolio-cat:not(:last-child)::after {
+    content: ' + ';
+}
+
+h5.port-title{
+    color: #F25926;
+    font-weight: 400;
+}
+
+span.portfolio-cat {
+    font-size: .75rem;
+    font-weight: bold;
+}
+
+p.port-freelancer {
+    font-size: .75rem;
+    margin: .25rem 0rem
+}
+
+.columns.single-portfolio {
+    margin-bottom: 2rem;
+}
+
+.archive-portfolio-details {
+    padding: .5rem;
+}
+
+@media(max-width: 1355px  ){
+    div#portfolio-rcktshp-believes{
+        padding: 1rem;
+    }
+
+    div#portfolio-rcktshp-believes > h2 {
+        font-size: 1.75rem;
+    }
+
+    div#portfolio-rcktshp-believes > p {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 1035px){
+
+    .large-3.medium-12.small-12.columns.single-portfolio {
+        width: 50%;
+    }
+}
+
+@media(max-width: 450px) {
+    .large-3.medium-12.small-12.columns.single-portfolio {
+        width: 100%;
+    }
+
+
+}

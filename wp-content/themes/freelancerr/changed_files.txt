@@ -1,0 +1,30 @@
+V1.2.1 ==28-11-2014*************************
+Modified		style.css
+Modified		includes/breadcrumbs.php
+
+
+
+
+
+V1.2 ==31-10-2014*************************
+Modified		style.css
+Modified		styles/responsive.css
+Modified		functions.php.php
+Modified		header.php
+Modified		header-options.php
+Modified		includes/actions.php
+Added			included/js/jcarousellite.js
+Added			included/breadcrumbs.php
+Added			featured-project.php
+Added			featured-project.php
+Added			images/slide-right.png
+Added			images/slide-left.png
+Modified		changelog.txt
+Modified		changedfiles.txt
+
+
+
+V1.1 ==23-09-2014*************************
+Modified		changelog.txt
+Modified		install/
+

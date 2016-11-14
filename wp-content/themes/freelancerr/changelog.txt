@@ -1,0 +1,24 @@
+1.2.1
+	- fixed: breadcrumbs
+	- fixed: minor css bugs
+
+	
+	
+1.2 
+	- added: Featured projects slider
+	- fixed: responsive mobile toggle menu
+	- fixed: responsiveness for boxed layout
+	- fixed: height of the header when the revslider is disabled
+	- fixed: breadcrumbs titles for blog page
+	- fixed: minor css bugs
+	- Compatible with Hirebee 1.2.1
+	//See changelogs of Hirebee 1.2.1
+
+
+1.1 
+
+	- Compatible with Hirebee 1.2
+	//See changelogs of Hirebee 1.2
+	
+	
+1.0 - First Release

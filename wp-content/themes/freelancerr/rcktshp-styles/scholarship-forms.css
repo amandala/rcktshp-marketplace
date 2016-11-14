@@ -1,0 +1,378 @@
+/* style rules for the RCKTSHP Scholarship pages */
+.large-10.push-1.columns.scholarship-form {
+    border-left: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+    padding-bottom: 2rem;
+}
+
+.form-greeting, .prog-bar{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#scholarship-banner{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#full-sec{
+    border-left: 1pt solid #e3e4e8;
+    border-right: 1pt solid #e3e4e8;
+}
+
+#scholarship-banner, #full-sec{
+    background-color: white;
+}
+
+.skill-check{
+    font-size: .65rem;
+    padding-left: .5rem;
+}
+
+#scholarship-tagline{
+    text-align: center;
+}
+
+fieldset.scholarship-section{
+    border: 1px solid #27B7C0;
+    border-radius: 25px;
+    background-color: white;
+}
+
+p.schol-error {
+    background-color: #f25926;
+    color: white;
+    padding: .5rem;
+}
+
+#form-section{
+    margin-bottom: 3rem;
+    margin-left: 0px;
+}
+
+.prog-bar{
+    padding-bottom: 1rem;
+}
+
+.greeting{
+    font-family: "Roboto";
+    font-size: 3rem;
+    color: #68BEC5;
+    margin-top: 0;
+
+}
+
+div#show-us-your-stuff, div#heading-show-us {
+    border-left: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+}
+
+.greet-teal{
+    font-weight: 200;
+    color: #F15A26;
+}
+
+
+.instruction{
+    font-family: "Roboto" !important;
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding-bottom: .5rem;
+    line-height: 1.3;
+    margin-bottom: 0;
+}
+
+.instruction.bold{
+    font-weight: 200;
+}
+
+.instruction.small.bold{
+    font-weight: 300;
+}
+
+.instruction.small{
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.instruction.pad{
+    padding-top: 1rem;
+}
+
+.pad-bottom {
+    padding-bottom: 1rem;
+}
+
+.pad-top {
+    padding-top: 1rem;
+
+}
+
+.instruction.pad.elig{
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.ital{
+    font-style: italic;
+    font-weight: 200;
+}
+
+.call{
+    color: #68BEC5;
+    font-family: "Roboto" !important;
+    font-weight: 200;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    margin-top: .5rem;
+}
+
+.scol-legend{
+    font-family: "Roboto" !important;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.scol-form-sec{
+    font-family: "Roboto" !important;
+    font-weight: normal;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.scol-label{
+    font-size: .75rem;
+}
+
+.error{
+    background-color: #F15A26;
+    color: white;
+}
+
+label{
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 1;
+}
+
+#signup-section > fieldset > div:nth-child(9){
+    position: relative;
+    top: -5px;
+}
+
+.fa-question-circle{
+    color: #F15A26;
+}
+
+#yes{
+    font-family: "Roboto" !important;
+    font-size: .75rem;
+}
+
+div#reg-form-share {
+    margin-left: 0rem;
+    position: relative;
+    right: 1rem;
+}
+
+.next-button-section {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+div#scholarship-banner-sap {
+    padding: 0;
+}
+
+
+
+div.form-greeting {
+    float: none !important;
+    border-left: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+}
+
+
+/* support local */
+
+h3.greeting.pad-top {
+    margin-top: 0;
+}
+
+/* Sidebar */
+
+.scol-sidebar{
+    padding-bottom: 2rem;
+}
+
+.sidebar-img{
+    padding-bottom: 1rem;
+}
+
+.schol-sidebar{
+    margin-top: 2rem;
+    border: 1px solid #27B7C0;
+    border-radius: 25px;
+}
+
+p.sidebar-schol, ul.sidebar-schol{
+    font-family:  'Roboto';
+    font-weight: 200;
+    line-height: 1.2;
+}
+
+.schol-sidebar-heading{
+    padding-top: 1rem;
+    font-family: "Roboto" !important;
+    font-weight: 500;
+}
+
+.schol-button{
+    background-color: #F15A26;
+    font-family: "Roboto" !important;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.schol-button:hover {
+    color: white;
+    text-decoration: none !important;
+}
+
+.schol-button:hover, .schol-button:checked {
+    background-color: #e05323;
+}
+
+.next{
+    float: right;
+}
+
+#browse-all-link{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+
+#prog-bar100{
+    padding-bottom: 3rem;
+}
+
+#prog-bar33, #prog-bar66{
+    padding-top: 2rem;
+}
+
+#paypal-link{
+    font-size: .75rem;
+    position: relative;
+    top: -14px;
+}
+
+#newsletter-check{
+    margin-bottom: 0px;
+}
+
+
+#newsletter{
+    margin: 0 0 0 0 ;
+}
+
+
+@media (max-width: 400px){
+    .greeting{
+        font-size: 1.1rem;
+
+    }
+    .instruction{
+        font-size: 1rem;
+        font-weight: 200;
+    }
+
+    .instruction.pad{
+        padding-top: 0rem;
+    }
+
+    .call{
+        font-size: 1rem;
+        margin-bottom: .5rem;
+    }
+    #sidebar-basic{
+        margin-top:0px;
+        margin-bottom: 1rem;
+    }
+    .schol-button{
+        font-size: .75rem;
+    }
+
+    #form-section {
+        /* margin-bottom: 3rem; */
+        margin-left: 0px;
+    }
+
+    .scol-sidebar{
+        margin-top: 0rem;
+    }
+    fieldset.scholarship-section{
+        padding-right: 0rem;
+    }
+    #else-section > fieldset{
+        position: relative;
+        left:-14px;
+    }
+    #browse-all-link{
+        font-size: 1rem;
+    }
+
+    .instruction.pad.elig{
+        font-size: .5rem;
+        font-weight: 200;
+    }
+
+    .scol-legend{
+        font-size: 1rem;
+    }
+
+    .scol-form-sec{
+        font-size: .75rem;
+    }
+    .scol-label{
+        font-size: .5rem;
+        padding-bottom: .25rem;
+    }
+    #signup-section > fieldset > div.large-12.columns > span:nth-child(3){
+        font-size: .5rem;
+    }
+
+    #yes{
+        font-size: .5rem;
+    }
+
+    div#footer-icons {
+        right: 0rem;
+    }
+
+    button#show-signup-section{
+        margin-right: 5rem;
+    }
+
+}
+
+@media (max-width: 330px){
+    button#show-signup-section{
+        margin-right: 4rem;
+    }
+}
+
+
+#sidebar-list{
+    padding-left: 2rem;
+    font-size: 1rem;
+}
+
+#show-signup-section{
+    margin-top:1rem;
+}
+

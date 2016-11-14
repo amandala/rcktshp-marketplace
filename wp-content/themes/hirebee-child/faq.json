@@ -1,0 +1,360 @@
+{ "student":
+	[{
+		"section":"Intro to RCKTSHP",
+		"anchorname":"studentintro",
+		"questions": [
+			{
+				"q":"How does RCKTSHP work for Freelancers?",
+				"a":"<p>RCKTSHP aims to help students gain paid work experience and grow their network of professionals while completing their degree or after graduation. Sign-up is easy; create a profile and browse projects to begin working as a Freelancer within minutes.<\/p>"
+			},
+			{
+				"q":"Who can be a Freelancer?",
+			 	"a":"<p>The core Freelancer base is made up of university and college students, graduates, and continuing education students; however, anyone can sign up and participate as a Freelancer.<\/p>"
+			},
+			{
+				"q":"What kind of projects are posted on the RCKTSHP Marketplace?",
+				"a":"<p>Any project of a digital nature can be posted on RCKTSHP. This includes, but is not limited to: <\/p>",
+				"bullets":[
+					{"b":"Graphic design"},
+					{"b":"Web development"},
+					{"b":"Software development & programming"},
+					{"b":"Multimedia creation"},
+					{"b":"Photography and image alterations"},
+					{"b":"Social media marketing"},
+					{"b":"Marketing strategy and content creation"},
+					{"b":"Research projects"},
+					{"b":"Writing: creative & technical"},
+					{"b":"Analytics reporting"},
+					{"b":"Customer service & support"}],
+				"aa":"<p><a href='http://projects.rcktshp.com/projects/'>Browse Projects & Categories</a> for more.<\/p>"
+			},
+			{
+				"q":"What is RCKTSHP Escrow Protection?",
+				"a":"<p>RCKTSHP Escrow Protection gives Freelancers the confidence of knowing that money is available and held by RCKTSHP while they complete a project.<\/p><p>When being assigned to a project, Employers must pay for the project in full before the project can begin. These funds remain in RCKTSHP’s escrow account until the Employer has confirmed that the project is done, in which case the funds will be released to the Freelancer.<\/p>"
+			},
+			{
+				"q":"How is RCKTSHP different from an internship or co-op position?",
+				"a":"<p>RCKTSHP allows Freelancers to become contractors and complete timed projects with Employers. RCKTSHP is different from co-op jobs and internships in 4 ways:<\/p>",
+				"bullets":[
+					{"b":"Participating in RCKTSHP does not require the commitment of a full time job; we provide flexible work opportunities to fit a student’s hectic school schedule."},
+					{"b":"Freelancers can try a variety of projects within their areas of expertise to find out where they excel, rather than being tied down in a specific placement."},
+					{"b":"Use of RCKTSHP does not require the hefty fees and write-ups of the co-op program, and allows Freelancers to earn paid work experience."},
+					{"b":"Students can differentiate themselves. If everyone participates in a co-op job or an internship, students need to do more to stand out. "}]
+			},
+			{
+				"q":"What is ‘Made By Uppercut’ and ‘Anagram’?",
+				"a":"<p>RCKTSHP is a project of Things Made By Uppercut, a division of Anagram Inc., which is a creative and technology agency located in Calgary, Alberta. Any payments made to RCKTSHP will appear under the name “Things Made By Uppercut”.<\/p>"
+			},
+			{
+				"q":"How do I set up my profile?",
+				"a":"<p>Please ensure your profile is fully filled out and detailed to attract Employers’ attention.<\/p><p>Under your ‘Dashboard’, you can select ‘Edit Profile’. On this page, you may edit your photo, email, description, industry, links, education, work experience, skills, and more. Filling out these fields will make your profile more informative, and raise the likelihood of being assigned a project.<\/p><p>Your Display Name is how your name will appear on your public profile. Please ensure you’ve provided a public email address, PayPal email address, and tax information as a bare minimum. You can not select a Freelancer without providing this information.<\/p>"
+			}
+		]
+	},
+	{
+		"section":"Applying to projects",
+		"anchorname":"studentapplying",
+		"questions": [
+			{
+				"q":"How do I apply for positions? ",
+				"a":"<p>Under the 'Find Work' section, you may browse available jobs and projects. If you would like to refine your search to locate specific jobs, you may specify your categories of interest, your available skill set, and/ or your location on the right side bar. You can also browse projects through the search bar at the top of the page.<\/p><p>Select your desired job to read additional details, and to apply to the project. You need to specify the price that you will accept, and the time span needed to complete the project - either matching the Employer’s proposal, or offering an alternate competitive rate or time range.<\/p><p><em>You must update your account with a public email address and payment information before applying to a project</em>, to ensure that you are able to be contacted and paid. Make sure that you have enough credits on your account to submit the proposal, and that you accept the terms and conditions. Select 'Submit,' and await notification of assignment.<\/p>"
+			},
+			{
+				"q":"What information should I include in a proposal?",
+				"a":"<p>Please provide detailed information about any qualifications and past experience that will make you the right candidate for the position. You may include links to outside sources, such as your LinkedIn profile, or other relevant online information.<\/p>"
+			},
+			{
+				"q":"Can I negotiate price with an Employer?",
+				"a":"<p>When applying for a project, Freelancers have the right to negotiate price level with the Employer. In the proposal, you can view the Employer’s listed budget, the average budget proposed by other Freelancers, and may also propose your own competitive budget. You can only do this once, so make sure you do not propose a budget that is excessively low or high.<\/p><p>Employers can compare candidates based on their suggested price. The budget specified by you in your initial proposal is non-negotiable, and will be the final suggested price for the project.<\/p>"
+			},
+			{
+				"q":"What are the ‘Terms’?",
+				"a":"<p>When you’ve been selected, the Employer may specify additional project terms that were not included in the project details that must be agreed upon or negotiated. You may also specify terms (subject to Employer Agreement). These may include, but are not limited to:<\/p>",
+				"bullets":[
+					{"b":"Confidentiality agreements"},
+					{"b":"Non-disclosure agreements"},
+					{"b":"Project scope documents"},
+					{"b":"Deadlines"},
+					{"b":"Any additional details to be agreed upon"}],
+					"aa": "Any terms specified will be the official project terms, and must be honored. In the case of any disagreement or dispute, these terms may be legally used as a reference."
+			},
+			{
+				"q":"How do I accept terms and conditions from Employers?",
+				"a":"<p>You will receive notification informing you if the Employer has specified terms upon selecting you.<\/p><p>Terms may be viewed from the notification, email, or the Dashboard. You may either accept, decline, or negotiate terms by selecting 'propose terms.' If you choose to accept or decline, you may include any notes and proceed to 'Submit for Approval' to await Employer approval. <\/p><p>If you choose to propose terms, you may negotiate terms that the Employer must agree to before you’re officially assigned to the project, and then proceed to 'Submit for Approval'. Your decision will be sent to the Employer for their approval, as well. Once terms have been agreed by each participant, the project may begin.<\/p>"
+			},
+			{
+				"q":"Why aren’t I able to apply for a project?",
+				"a":"<p>If nothing is happening when you attempt to apply to a project, it may be due to missing information in your profile. You must provide a public email address that Employers may reach you at before applying to a project. You can do so by Editing your Profile.<\/p><p>Payment information is also required to be filled in before you can apply to a project; make sure you provide an email address associated with a PayPal account that is valid and confirmed. Please ensure that this step is completed before applying to a project, and ensure you refresh your browser before trying again.<\/p>"
+			},
+			{
+				"q":"How will I know if I have been selected?",
+				"a":"<p>If you have been selected as the candidate for a project, you will receive a notification and an email informing such. However, the project is not officially assigned to you until you and the Employer agree on project terms.<\/p><p>Do not begin working on the project until you’ve agreed on terms, and the Employer has transferred funds for the project to our escrow account.<\/p>"
+			},
+			{
+				"q":"What should I do if I’m not being selected for projects?",
+				"a":"<p>If Employers are not selecting you as the candidate for a project, there are a few things you can do to better showcase your talents.<\/p><p>Make sure your proposals are thorough and detailed. Explain how your education and work experiences make you the right person for the project. The Employer may be looking at your profile, as well, but a detailed proposal will be eye catching before they reach your profile.<\/p><p>Make sure your profile is fully filled out to give Employers a sense of who you are, and what you’ve accomplished. Freelancers with a detailed profile have a much higher chance of winning projects.<\/p><p>Make sure your proposals are reasonably priced. The Employer has thought carefully about the project’s pricing, and although they are willing to negotiate, they may not be willing to pay drastically higher amounts than what they had listed.<\/p><p>Make sure you are focusing on your most developed skills, rather than offering a little bit of everything. Employers are looking for Freelancers who are enthusiastic, skilled, and innovative within a specific category to complete a specific job.<\/p>"
+			}
+		]
+	},
+	{
+		"section":"In-Progress Projects",
+		"anchorname":"studentinprogress",
+		"questions": [
+			{
+				"q":"How can I contact an Employer?",
+				"a":"<p>An Employer’s contact information will be available in your project workspace in the Dashboard. Select the project that you wish to find contact information for, and under the “Manage” tab, you will find all contact information that the Employer has disclosed.<\/p><p>We encourage frequent communication between Freelancer and Employer during project completion to ensure all project needs are met. Meet face-to-face to better understand each other’s needs and capabilities.<\/p>"
+			},
+			{
+				"q":"How often should I meet with the Employer?",
+				"a":"<p>As often as you and the Employer see fit. You are not required to meet with the Employer, but meeting face-to-face has personalization advantages and may make it easier to communicate deliverables and exchange any necessary information. <\/p>"
+			},
+			{
+				"q":"How will the Employer review my work?",
+				"a":"<p>We encourage frequent communication between Employer and Freelancer. Please feel free to send the Employer updated components of the project as they become complete to get feedback and make any changes where appropriate. <\/p><p>Please ensure you’ve sent the Employer the final copies of your work before marking your project ‘Complete’. The Employer will confirm that all project terms were met, and will mark the project ‘Complete’ to close the workspace and release funds to you.<\/p>"
+			},
+			{
+				"q":"How do I let an Employer know that a project is finished? ",
+				"a":"<p>In your Dashboard you can see all of your projects, both past and present. Select the project that you have completed to navigate to the workspace. At the bottom of your workspace you can change the status of the project to completed, and you may also add any additional comments about the project. <\/p><p>We encourage frequent communication between Freelancer and Employer to ensure all project needs are met before changing the work status. Please ensure you’ve sent the Employer the final copies of your work before marking your project ‘Complete’.<\/p><p>The Employer will be notified of the new project status to analyze your work and end the project accordingly. Payment will not be disbursed until the Employer has agreed that the project is completed by marking the project ‘Complete’.<\/p>"
+			},
+			{
+				"q":"What if an Employer cancels my project?",
+				"a":"<p>If an Employer marks your project ‘Cancelled’, funds will be immediately released back to the Employer. In this scenario, the project workspace is officially closed, and the Freelancer will not be paid. <\/p><p>If you disagree with the Employer’s decision to cancel the project, or had the project partially completed prior to cancellation, we strongly suggest that you contact the Employer to identify any reason for cancellation. Since the project workspace is closed, you are not able to open a dispute on the project; however, you may dispute with the Employer directly. In this scenario, the negotiation is completely separate from RCKTSHP. <\/p>"
+			},
+			{
+				"q":"How do I rate and review an Employer?",
+				"a":"<p>In your dashboard, select the completed project which you wish to rate and review. Under Actions you can select 'review' to rate the Employer on a scale of 1 to 5 and add any comments about the experience - select 'Submit' when it’s completed. Your review will be visible on the Employer’s profile. In turn, you will receive a notification if you have been reviewed by an Employer.<\/p>"
+			},
+			{
+				"q":"What if an Employer marks my project ‘Incomplete’? ",
+				"a":"<p>If an Employer believes your project was insufficient and therefore marked your project incomplete, you may open a dispute within 5 days before funds are released back to the Employer.<\/p><p>In a dispute, you need to come to a mutual solution with the Employer before payment can be disbursed to either party. We strongly encourage you to contact the Employer if you have not already to identify, in detail, any project discrepancies.<\/p><p>Please refer to the <a href='http://projects.rcktshp.com/escrow-terms'>Disputes</a> section of <a href='http://projects.rcktshp.com/escrow-terms'>RCKTSHP Escrow Payment Terms For Fixed Price Projects</a> for additional information.<\/p>"
+			},
+			{
+				"q":"How do I open a dispute about an Employer?",
+				"a":"<p>When an Employer has marked a project ‘Incomplete’ and the Freelancer wishes to start a dispute, they may go to their dashboard and select the incomplete project. This is the closed workspace and under “Actions”, a Freelancer can click “Start Dispute”.<\/p><p>A new communication tool will become available in the project workspace, which both parties may use to come to a mutual resolution.<\/p><p>For further instructions and information regarding disputes, please visit the Disputes section in <a href='http://projects.rcktshp.com/terms'>RCKTSHP Terms of Use</a> and <a href='http://projects.rcktshp.com/escrow-terms'>Escrow Payment Terms For Fixed Price Projects</a>.<\/p>"
+			},
+			{
+				"q":"Can I be hired by a RCKTSHP Employer outside the RCKTSHP platform?",
+				"a":"<p>You may hire a RCKTSHP Freelancer outside of the platform, within certain restrictions. We value the relationship we maintain with our Employers and Freelancers on the RCKTSHP platform, and we want to repeat that relationship as often as possible. Employer and Freelancer participation on the platform allows us to continue to provide this service. However, we understand that good Freelancers get hired by good Employers for the long term. Our fair way of dealing with this is by establishing a short, four-month exclusivity period with the option of exiting early by paying an exit fee.<\/p><p>Please see the RCKTSHP <a href='http://projects.rcktshp.com/service-fees'>Service Fees</a> for further details.<\/p>"
+			}
+		]
+	},
+	{
+		"section":"Payments",
+		"anchorname":"studentpayments",
+		"questions": [
+			{
+				"q":"How do I receive payment for my work?",
+				"a":"<p>Once the project terms are agreed upon by both parties, the Employer will transfer the full amount of funds to RCKTSHP. We will hold it in an escrow account until the project is completed. <\/p><p>Once the Employer confirms that you did the work, and marks your project ‘Complete’, RCKTSHP will release the funds to the Freelancer who will then be successfully paid for his or her work through the PayPal account provided.<\/p>"
+			},
+			{
+				"q":"What is an escrow account?",
+				"a":"<p>As defined by wikipedia, an escrow account is:<\/p>",
+				"bullets":[
+					{"b":"“A contractual arrangement in which a third party receives and disburses money or documents for the primary transacting parties, with the disbursement dependent on conditions agreed to by the transacting parties.”"}]
+			},
+			{
+				"q":"How do I update my escrow information?",
+				"a":"<p>Escrow information can be updated in your Dashboard. Select ‘Payments’ > ‘Escrow’ and add the email associated with your PayPal account. <\/p><p>PayPal requires that you confirm your email address before your account is activated; please ensure you’ve completed this step. Within PayPal, you can add debit and credit cards to release payment from, and when paying, you may specify which account you would like to draw from.<\/p>"
+			},
+			{
+				"q":"Does RCKTSHP charge service fees?",
+				"a":"<p>RCKTSHP collects 15% of the listed price on all projects as a service fee. This fee is paid by the Freelancer and is taken off the price of the project. When Freelancer and Employer agree to <a href='http://projects.rcktshp.com/terms'>RCKTSHP Terms Of Use</a>, they irrevocably give permission for RCKTSHP to do so. <\/p><p>Please visit the <a href='http://projects.rcktshp.com/service-fees'>Service Fees</a> section in <a href='http://projects.rcktshp.com/terms'>RCKTSHP Terms Of Use</a> for full payment disclosure information.<\/p>"
+			},
+			{
+				"q":"Is my RCKTSHP income taxable?",
+				"a":"<p>All Freelancers are responsible for reporting their sources of income on their yearly income tax, and it is the sole responsibility of the Freelancer to make any social security, employment insurance, disability and other similar employment payments required by law in the Freelancer’s location.<\/p>"
+			},
+			{
+				"q":"What are credits?",
+				"a":"<p>Credits are a cash equivalent. You automatically receive 5 credits when you create an account, and you may purchase additional credit packages using a PayPal account or a credit card.<\/p><p>Applying for a job, in most cases, costs 1 credit. You may also choose to feature your application to better your chances of being hired for an additional 3 credits. Beginning packages start at 5 credits for $5.00, and discounts/ extra credits will be provided in larger packages.<\/p><p>To purchase credits select 'Payments' in the Dashboard, or select ‘Add Credits’ under ‘Navigate’ in the footer. Select a credit package, and click 'Continue' to review your order. You will then be redirected to PayPal to fill in your payment information.<\/p>"
+			}
+		]
+	}],
+"employer": [
+	{
+		"section":"Intro to RCKTSHP",
+		"anchorname":"employernew",
+		"questions": [
+			{
+				"q":"How does RCKTSHP work for Employers?",
+				"a":"<p>RCKTSHP allows companies to hire local, skilled Freelancers to complete company jobs and projects. Employers can find skilled freelance candidates momentarily to eliminate the hassle of outsourcing overseas, battling language barriers, and paying hefty prices for online projects. Hire confidently with escrow protection and review work prior to releasing payment.<\/p><p>Create an account and post a project to hire Freelancers instantly.<\/p>"
+			},
+			{
+				"q":"Who can be an Employer?",
+				"a":"<p>Anyone who needs a project completed can use RCKTSHP to get it done. This includes start-ups, sole proprietors, established companies, and non-profit organizations. Really, anybody!<\/p>"
+			},
+			{
+				"q":"What projects can I post?",
+				"a":"<p>An online project can be any work that your company is looking to outsource. This includes, but is not limited to:<\/p>",
+				"bullets":[
+					{"b":"Graphic design"},
+					{"b":"Web development"},
+					{"b":"Software development & programming"},
+					{"b":"Multimedia creation"},
+					{"b":"Photography and image alterations"},
+					{"b":"Social media marketing"},
+					{"b":"Marketing strategy and content creation"},
+					{"b":"Research projects"},
+					{"b":"Writing: creative & technical"},
+					{"b":"Analytics reporting"},
+					{"b":"Customer service & support"}],
+				"aa":"<p><a href='http://projects.rcktshp.com/projects/'>Browse Projects & Categories</a> for more.<\/p>"
+				},
+				{
+					"q":"What is RCKTSHP Escrow Protection?",
+					"a":"<p>RCKTSHP Escrow Protection gives Employers the confidence to review a Freelancer’s completed work prior to releasing payment. The Employer only releases funds when satisfied the project is complete.<\/p><p>When assigning a Freelancer to a project, Employers must pre-pay in full into an escrow account for the project before it begin. These funds remain in RCKTSHP’s escrow account until the Employer has confirmed that the project is done, in which case the funds will be released to the Freelancer.<\/p>"
+				},
+				{
+					"q":"What are the benefits of hiring local?",
+					"a":"<p>Hiring a local Freelancer keeps your dollars in the local economy and benefits young Freelancers - the next generation of business leaders - close to home. You can meet with a Freelancer face-to-face, and eliminate time zone issues and language barriers associated with traditional freelance platforms. Local Freelancers have in-market knowledge, and the ability to frequently communicate to better cater to your business’ needs.<\/p>"
+				},
+				{
+					"q":"How do I set up my profile?",
+					"a":"<p>Under your ‘Dashboard’, you can select ‘Edit Profile’. On this page, you may edit your photo, email, description, industry, links, past clients, skills, and more.<\/p><p>Please ensure your profile is fully filled out and detailed to attract freelance talent.<\/p><p>Your Display Name is how your name will appear on your public profile. Please ensure you’ve provided a public email address, PayPal email address, and tax information as a bare minimum. You cannot select a Freelancer without providing this information.<\/p>"
+				},
+				{
+					"q":"What is 'Made By Uppercut' and ‘Anagram’?",
+					"a":"<p>RCKTSHP is a project of Things Made By Uppercut, a division of Anagram Inc., which is a creative and technology agency located in Calgary, Alberta. Any payments made to RCKTSHP will appear under the name “Things Made By Uppercut”.<\/p>"
+				}
+			]
+		},
+	{
+		"section":"Posting a Project",
+		"anchorname":"employerposting",
+		"questions": [
+			{
+				"q":"How do I post a project?",
+				"a":"<p>Select 'Post a Project' under the main menu, and fill in required fields regarding your project. Please provide as many details as possible so that Freelancers know exactly what is expected of them. Please include: what your company does, how long you require the Freelancer’s services, and specific project deliverables.<\/p><p>Click 'Continue,' and verify that your project appears correctly. Click 'Confirm and Submit' and await RCKTSHP verification of your project. We moderate all projects and will make any suggestions to the Employer to help attract talented Freelancers. Once verified, your project will be live on the website.<\/p>"
+			},
+			{
+				"q":"How do I select a freelancer?",
+				"a":"<p>In the Dashboard, you can view all active projects and proposals. Selecting “Proposals” on the desired project will allow you to view all proposals by all Freelancers. On each proposal, you can select “Actions” to view the proposal in more detail and/or select the candidate.<\/p> <p>Alternatively, you may select a Freelancer through the notification of their proposal.<\/p> <p>When you have selected a Freelancer, you may specify any additional terms for the project that the Freelancer must accept before starting the project. Click 'Select Proposal' and confirm the selection. The project will be officially assigned when the Freelancer accepts your terms, and you fund the workspace.<\/p>"
+			},
+			{
+				"q":"What qualities should I look for in a Freelancer?",
+				"a":"<p>When selecting a Freelancer, you should view each candidate’s profile. You can compare education, GPA, work experience, awards, certifications, past projects, and reviews from previous RCKTSHP Employers. Profiles also include each candidate’s skills, and links to external portfolios to see a candidate’s creative style and web capabilities.<\/p><p>Each candidate’s unique proposal will explain why they are the best candidate for the project, and they can also be compared by proposed price and duration.<\/p><p>For help choosing a candidate, please feel free to reach out to Freelancers for an interview, or contact us for support.<\/p>"
+			},
+			{
+				"q":"How should I determine project price?",
+				"a":"<p>Project price should be determined, in part, by the following factors: <\/p>",
+				"bullets":[
+					{"b":"The amount of time that you will require the Freelancer’s services"},
+					{"b":"The nature of the work, including skills, experience, & education required for the position"},
+					{"b":"The number of deliverables required by the Freelancer"}]
+			},
+			{
+				"q":"Can I negotiate price with a Freelancer?",
+				"a":"<p>Freelancers and Employers may both specify their desired price. When applying for a project, the Freelancer may view your listed price and offer their own budget that counters yours.<\/p><p>Each Freelancer may suggest a competitive price, allowing you to compare candidates on this basis. The budget specified by the Freelancer in their initial proposal is non-negotiable, and will be the Freelancer’s final suggested price for the project.<\/p>"
+			},
+			{
+				"q":"What are the ‘Terms’?",
+				"a":"<p>When you select a Freelancer, you are able to specify any additional project terms that were not included in the project details (Subject to Freelancers agreement). These include, but are not limited to: <\/p>",
+				"bullets":[
+					{"b":"Confidentiality agreements"},
+					{"b":"Non-disclosure agreements"},
+					{"b":"Project scope documents"},
+					{"b":"Deadlines"},
+					{"b":"Any additional details to be agreed upon"}],
+				"aa":"<p>Any terms specified will be the official project terms, and must be honored. In the case of any disagreement or dispute, these terms may be legally used as a reference.<\/p>"
+			},
+			{
+				"q":"How do I accept terms and conditions from Freelancers?",
+				"a":"<p>If the Freelancer has agreed to your initial project terms, you will receive a notification informing such.<\/p><p>The Freelancer may or may not propose their own terms or notes. If they do so, you will receive a notification with a link to his or her terms. You must come to an agreement before the Freelancer is officially assigned to the project. You may either accept, decline, or negotiate terms by selecting 'propose terms.' If you choose to accept or decline, you may include any notes/ details and proceed to 'Submit for Approval.' If you choose to propose terms, you may negotiate terms that the Freelancer must agree to before they are officially assigned to the project, and then proceed to 'Submit for Approval.' Your decision will be sent to the Freelancer.<\/p><p>If you are satisfied with the project terms, click 'Accept/ Start Project' and please note that you will be required to transfer funds immediately. The project is not in-progress until you have done so.<\/p><p>If you choose to decline, the candidate will be notified and you may select a Freelancer that better meets your business’ needs.<\/p>"
+			},
+			{
+				"q":"How do I let other freelancers know that a project has been assigned?",
+				"a":"<p>Once a project has been successfully assigned to a Freelancer, the project will automatically be hidden from the 'Find Work' and ‘Browse Projects’ feed and others will not be able to apply for the job.<\/p><p>All Freelancers that previously applied to the project will receive a notification that the project has been assigned to another Freelancer.<\/p>"
+			},
+			{
+				"q":"What should I do if Freelancers are not applying to my project?",
+				"a":"<p>If Freelancers are not applying to your project, there are a few things you can do to better attract freelance talent.<\/p><p>Make sure your project posting is clear, simple to understand and appropriately detailed. Freelancers may not be applying because they are unsure about what is expected of them. Ideal details to include are project duration, specific deliverables, and deadlines.<\/p><p>Make sure your project is reasonably priced. Freelancers may feel undervalued by a low price tag. <\/p><p>Please ensure your project does not have too many components. If you need some graphic design, some marketing, and some web development, we strongly recommend you break up your projects into smaller individual projects. Freelancers with specialties in each area can complete each component separately for higher quality results.<\/p><p>Make sure your profile is fully filled out so Freelancers can understand what your company is all about and better meet your business’ needs. <\/p>"
+			},
+			{
+				"q":"What should I do if the Freelancer and I cannot agree on terms?",
+				"a":"<p>If you are not able to come a mutual agreement, you may decline the Freelancer’s terms, which will cancel the project. However, it may easily be re-opened. In your dashboard, locate the project and select ‘Actions’ > ‘Reopen Project’. From here, you may start the selection process again.<\/p>"
+			}
+		]
+	},
+	{
+		"section":"Managing Projects",
+		"anchorname":"employermanaging",
+		"questions": [
+			{
+				"q":"How do I keep in contact with the Freelancer completing my project?",
+				"a":"<p>A Freelancer’s contact information will be available in your shared workspace in the Dashboard. Here you will find all contact information that the Freelancer has disclosed, and you may contact them when appropriate.<\/p><p>When using local Freelancers, you have the option to meet face-to-face with the Freelancer, and communicate frequently to ensure all project needs are met.<\/p>"
+			},
+			{
+				"q":"How often should I meet with the Freelancer? ",
+				"a":"<p>As often as you and the Freelancer see fit. You are not required to meet with the Freelancer, but meeting face-to-face has personalization advantages and may make it easier to communicate deliverables and exchange any necessary information.<\/p>"
+			},
+			{
+				"q":"Can I change parts of my project while it’s in progress?",
+				"a":"<p>Once project terms have been agreed upon in the negotiation process and the workspace has been funded, project terms cannot be altered. If you choose to ask more of the Freelancer than was originally agreed upon, the Freelancer is under no obligation to complete these extra tasks. <\/p><p>If you require additional services, we recommend that you post these as a new project.<\/p>"
+			},
+			{
+				"q":"How do I know when a Freelancer has completed my project?",
+				"a":"<p>When a Freelancer has completed your project, they will update their work status to 'Completed’, and you will be informed through notifications and email. You can view any closing remarks from the Freelancer, and are able to ensure that all project terms were met before releasing payment.<\/p><p>You must take action to end the project. Select either 'Completed' to confirm that the Freelancer did the project and to close the agreement, or 'Incomplete' if the Freelancer did not do sufficient work.<\/p><p>When you mark a project 'Completed,' funds will immediately be transferred from escrow to the Freelancer.<\/p>"
+			},
+			{
+				"q":"What can I do if I don’t like the Freelancer’s work?",
+				"a":"<p>If you are not satisfied with the Freelancer’s work, we initially recommend that you contact them with further requests and instructions regarding the project, and await project completion. If the Freelancer is unable to meet these needs, and they were part of the project terms, you may mark the project ‘Incomplete’.<\/p><p>Marking a project ‘Incomplete’ terminates it, and cannot be undone. The Freelancer will be notified and may open a dispute within 5 days if there is any disagreement regarding the project.<\/p><p>If you wish to continue the project with a new Freelancer, you will have to create the project again.<\/p>"
+			},
+			{
+				"q":"How do I rate and review a Freelancer?",
+				"a":"<p>In your Dashboard, select the completed project to view the closed Workspace. Under Actions, you can select 'review' to rate the Freelancer on a scale of 1 to 5 stars and add any comments about the experience. Select 'Submit' when it’s completed. Your review will be visible on the Freelancer’s profile. In turn, you will receive a notification if you have been reviewed by a Freelancer.<\/p>"
+			},
+			{
+				"q":"Can I hire a RCKTSHP Freelancer outside the RCKTSHP platform?",
+				"a":"<p>You may hire a RCKTSHP Freelancer outside of the platform, within certain restrictions. We value the relationship we maintain with our Employers and Freelancers on the RCKTSHP platform, and we want to repeat that relationship as often as possible. Employer and Freelancer participation on the platform allows us to continue to provide this service. However, we understand that good Freelancers get hired by good Employers for the long term. Our fair way of dealing with this is by establishing a short, four-month exclusivity period with the option of exiting early by paying an exit fee.<\/p><p>Please see RCKTSHP <a href='http://projects.rcktshp.com/service-fees/'>Service Fees</a> for further details.<\/p>"
+			},
+			{
+				"q":"How do I cancel a project? ",
+				"a":"<p>If you wish to cancel a project, navigate to the project workspace in the Dashboard. Under ‘Manage’, you can set the project status to ‘Cancelled’, and you must provide reasoning for cancellation. Please be mindful that the Freelancer may have already begun work on the project; we encourage Employers to be as fair as possible and to only cancel a project when appropriate. Remember, unfair Employers may receive poor ratings by Freelancers or be suspended from using the site by RCKTSHP.<\/p><p>If the Freelancer disagrees with your decision to cancel the project, or had the project partially completed prior to cancellation, they may choose to contact you to dispute and negotiate a decision. In this scenario, the negotiation is completely separate from RCKTSHP and should be sorted out between you and the Freelancer directly.<\/p>"
+			},
+			{
+				"q":"What do I do when a dispute has been opened on my project?",
+				"a":"<p>When an Employer has marked a project ‘Incomplete’ and the Freelancer disagrees with the decision, he or she may start a dispute in the RCKTSHP platform. A new communication tool will become available in the project workspace, which both parties may use to come to a mutual resolution.<\/p><p>For further instructions and information regarding disputes, please visit the Disputes section in <a href='http://projects.rcktshp.com/terms'>RCKTSHP Terms of Use</a> and <a href='http://projects.rcktshp.com/escrow-terms'>Escrow Payment Terms For Fixed Price Projects.</a><\/p>"
+			}
+		]
+	},
+	{
+		"section":"Payments",
+		"anchorname":"employerpayments",
+		"questions": [
+			{
+				"q":"How does payment work?",
+				"a":"<p>After you’ve hired a Freelancer on a project, you will be asked to pay the total cost of your posted project. You will be redirected to PayPal where you can pay with your PayPal account or with a Credit Card. RCKTSHP will then hold the money in our escrow account. Once you confirm that the project is complete, RCKTSHP will release the funds to the Freelancer.<\/p><p>Your project price must be a fixed price.<\/p>"
+			},
+			{
+				"q":"What is an escrow account?",
+				"a":"<p>As defined by Wikipedia, an escrow account is:<\/p>",
+				"bullets":[
+					{"b":"“A contractual arrangement in which a third party receives and disburses money or documents for the primary transacting parties, with the disbursement dependent on conditions agreed to by the transacting parties.”"}]
+			},
+			{
+				"q":"Why can’t I transfer funds to RCKTSHP?",
+				"a":"<p>If you are unable to transfer money to RCKTSHP’s escrow account when attempting to hire a Freelancer, you may need to provide a public email address, or provide escrow information, such as a PayPal email address. This can be done in the ‘Payments’ section of the ‘Dashboard’.<\/p><p>Issues may also be due to the Freelancer’s profile; Freelancers must provide payment information before RCKTSHP can hold funds on their behalf. Freelancers must provide a public email address, and a valid, confirmed email address linked to a PayPal account. Please contact the Freelancer if issues persist to ensure they have completed this step.<\/p>"
+			},
+			{
+				"q":"How do I update my payment information?",
+				"a":"<p>Escrow information can be updated in your Dashboard. Select ‘Payments’ > ‘Escrow’ and add the email associated with your PayPal account.<\/p><p>PayPal requires that you confirm your email address before your account is activated; please ensure you’ve completed this step. Within PayPal, you can add debit and credit cards to release payment from, and when paying, you may specify which account you would like to draw from.<\/p>"
+			},
+			{
+				"q":"Are funds transferred from PayPal available immediately?",
+				"a":"<p>If the user’s PayPal account is attached to a credit card, funds will be available in RCKTSHP’s escrow account immediately.<\/p><p>If the user’s PayPal account is attached to an interac card, it may take 6 to 8 business days for the money to transfer to RCKTSHP’s escrow account. The Employer will receive a PayPal email to indicate that funds are on the way, and an email will also be received when funds have been successfully transferred to RCKTSHP’s escrow account. <\/p><p>If this is your chosen payment method, please inform the Freelancer of this time frame to ensure that they do not mark the project ‘Complete’ before RCKTSHP has received funds.<\/p>"
+			},
+			{
+				"q":"Does RCKTSHP issue refunds?",
+				"a":"<p>When necessary, RCKTSHP will issue a full refund to the Employer.<\/p><p>These instances include project cancellation, projects that the Employer marks incomplete where no dispute is opened, and projects that the Employer marks incomplete that have been disputed and resolved in the Employer’s favour. <\/p>"
+			},
+			{
+				"q":"Does RCKTSHP charge service fees?",
+				"a":"<p>RCKTSHP collects 15% of the listed price on all completed projects as a service fee. This fee is paid by the Freelancer and is taken off the price of the project. When Freelancer and Employer agree to <a href='http://projects.rcktshp.com/terms'>RCKTSHP Terms Of Use</a>, they irrevocably give permission for RCKTSHP to do so. <\/p><p>Please visit the <a href='http://projects.rcktshp.com/service-fees'>Service Fees</a> section in <a href='http://projects.rcktshp.com/terms'>RCKTSHP Terms Of Use</a> for full payment disclosure information.<\/p>"
+			},
+			{
+				"q":"Do I need to use and purchase credits?",
+				"a":"<p>No, Employers are not required to use credits. However, upon signing up, your account will be granted 5 credits; you may use these if you are both a Freelancer and an Employer and wish to apply to projects, as well.<\/p>"
+			}
+		]
+	}
+]}
